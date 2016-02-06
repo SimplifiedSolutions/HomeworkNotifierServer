@@ -1,6 +1,3 @@
-# HomeworkNotifierServer
-
-Basic Json Schema
 user {
     id: <int>,
     netId:<String>,
