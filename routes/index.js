@@ -6,7 +6,7 @@ router.get('/', function (req, res, next) {
     res.sendFile('basic.html', {root: 'public'});
 });
 
-/*************HANDERS**********/
+/*************HANDLERS**********/
 router.post('/AddUser', function (req, res, next) {
     //var jsonObject = req.body; //json object
     //var jsonObject = JSON.parse(req.body); //string
@@ -16,10 +16,18 @@ router.post('/AddUser', function (req, res, next) {
     var password = req.body.password;
 
     // Mongodb calls
+    var newUser = new User(req.body);
+    newUser.save(function(err, post) { //[4]
+        if (err){
+            var jsonresult = {success: false, message: "Your not awesome beans.", data: {key: "a1key"}};
+            return console.error(err);
+        }
+        console.log(post);
+        var jsonresult = {success: true, message: "Your awesome beans.", data: {key: "a1key"}};
+        console.log(jsonresult);
+        res.status(200).json(jsonresult);
+    });
 
-    var jsonresult = {success: true, message: "Your awesome beans.", data: {key: "a1key"}};
-    console.log(jsonresult);
-    res.status(200).json(jsonresult);
 });
 
 //is this a post? In other words, will this call actually generate/store a deletionKey for the to-be-expunged-user?
@@ -161,3 +169,33 @@ router.post('/DeleteTask', function (req, res, next) {
 
 /**************END HANDLERS*************/
 module.exports = router;
+
+
+
+/* Set up mongoose in order to connect to mongo database */
+var mongoose = require('mongoose'); //Adds mongoose as a usable dependency
+
+mongoose.connect('mongodb://ec2-54-187-234-170.us-west-2.compute.amazonaws.com/notifierDB'); //Connects to a mongo database called "commentDB"
+
+var userSchema = mongoose.Schema({ //Defines the Schema for this database
+    name: String,
+    netId: String,
+    key: String,
+    courseIds: [],
+    taskIds: []
+},{collection:"users"});
+//var courseSchema = mongoose.Schema({ //Defines the Schema for this database
+//    courseName: String,
+//});
+//var taskSchema = mongoose.Schema({ //Defines the Schema for this database
+//    Name: String,
+//    Comment: String
+//});
+
+var User = mongoose.model('User', userSchema); //Makes an object from that schema as a model
+
+var db = mongoose.connection; //Saves the connection as a variable to use
+db.on('error', console.error.bind(console, 'connection error:')); //Checks for connection errors
+db.once('open', function() { //Lets us know when we're connected
+    console.log('Database connected');
+});
