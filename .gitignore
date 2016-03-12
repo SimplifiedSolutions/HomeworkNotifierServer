@@ -36,3 +36,4 @@ node_modules/
 .idea/deployment.xml
 .idea/webServers.xml
 ws-swing-demo-1.0.0-SNAPSHOT.jar
+.idea/
