@@ -129,5 +129,35 @@ router.post('/AddTask', function (req, res, next) {
     res.status(200).json(jsonresult);
 });
 
+router.post('/CompleteTask', function (req, res, next) {
+    console.log(req.body);
+    var netId = req.body.netId;
+    var key = req.body.key;
+    var taskId = req.body.taskId;
+
+    // Mongodb calls
+
+    var successResult = true;
+    var messageResult = "netId:"+ netId + " key:"+key + "taskId:" +taskId;
+    var jsonresult = {success: successResult, message: messageResult};
+    console.log(jsonresult);
+    res.status(200).json(jsonresult);
+});
+
+router.post('/DeleteTask', function (req, res, next) {
+    console.log(req.body);
+    var netId = req.body.netId;
+    var key = req.body.key;
+    var taskId = req.body.taskId;
+
+    // Mongodb calls
+
+    var successResult = true;
+    var messageResult = "netId:"+ netId + " key:"+key +  "taskId:" +taskId;
+    var jsonresult = {success: successResult, message: messageResult};
+    console.log(jsonresult);
+    res.status(200).json(jsonresult);
+});
+
 /**************END HANDLERS*************/
 module.exports = router;
