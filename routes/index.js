@@ -68,7 +68,7 @@ router.get('/GetCourses', function (req, res, next) {
     var messageResult = "NetId:" + netId + "  key:" + key;
     var successResult = true;
     var coursesResult = [];
-    var course = {courseId:"24601", name:"CS 125"};
+    var course = {courseId:12142, name:"CS 125"};
     coursesResult.push(course);
 
     // Mongodb calls
@@ -84,11 +84,23 @@ router.get('/GetTasks', function (req, res, next) {
     var key = req.query.key;
 
     //TODO: set variables success, message, and deletion key to return.
+
+
     var successResult = true;
     var messageResult = "NetId:" + netId + "  key:" + key;
+    var courseIdResult = 1241242;
+    var dateResult = "April 14th, 2015";
+    var timeResult = "4:00PM";
+    var descriptionResult = "Description: This is a class!";
+    var completeResult = true;
+
     var tasksResult = [];
-    var task = {courseId:"24601", name:"CS 125"};
-    coursesResult.push(course);
+    var task = {courseId: courseIdResult,
+        dueDate: dateResult,
+        dueTime: timeResult,
+        description: descriptionResult,
+        complete: completeResult};
+    tasksResult.push(task);
 
     // Mongodb calls
 
@@ -97,6 +109,25 @@ router.get('/GetTasks', function (req, res, next) {
     res.status(200).json(jsonresult);
 });
 
+
+//********TASKS*******
+router.post('/AddTask', function (req, res, next) {
+    console.log(req.body);
+    var netId = req.body.netId;
+    var key = req.body.key;
+    var courseId = req.body.courseId;
+    var dueDate = req.body.dueDate;
+    var dueTime = req.body.dueTime;
+    var description = req.body.description;
+
+    // Mongodb calls
+
+    var successResult = true;
+    var messageResult = "netId:"+ netId + " key:"+key + " courseId:" + courseId + "dueDate:" +dueDate+ " dueTime:" +dueTime+"description:" +description;
+    var jsonresult = {success: successResult, message: messageResult};
+    console.log(jsonresult);
+    res.status(200).json(jsonresult);
+});
 
 /**************END HANDLERS*************/
 module.exports = router;
