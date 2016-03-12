@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b8ed458b-ce87-4a04-a35b-d62a3e19b502" name="NotifierServer" url="http://ec2-54-173-6-6.compute-1.amazonaws.com:3000/">
+        <fileTransfer host="ec2-54-187-234-170.us-west-2.compute.amazonaws.com" port="22" privateKey="C:\Users\Nicholas\Documents\Winter 2016\CS 360\Projects\Homework Notifier App\appserverkey.ppk" rootFolder="/home/bitnami" accessType="SFTP" username="ubuntu" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
