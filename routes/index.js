@@ -19,11 +19,14 @@ router.post('/AddUser', function (req, res, next) {
     var newUser = new User(req.body);
     newUser.save(function(err, post) { //[4]
         if (err){
-            var jsonresult = {success: false, message: "Your not awesome beans.", data: {key: "a1key"}};
+            var jsonresult = {success: false, message: "Your request can has many many fail. For real."};
+            console.error(jsonresult);
+            res.status(404).json(jsonresult);//TODO: what to send back if person isn't in the BYU student database?
             return console.error(err);
         }
         console.log(post);
-        var jsonresult = {success: true, message: "Your awesome beans.", data: {key: "a1key"}};
+        //TODO: generate keys
+        var jsonresult = {success: true, message: "User added! For the win!", data: {key: "aKey"}};
         console.log(jsonresult);
         res.status(200).json(jsonresult);
     });
@@ -181,8 +184,8 @@ var userSchema = mongoose.Schema({ //Defines the Schema for this database
     name: String,
     netId: String,
     key: String,
-    courseIds: [],
-    taskIds: []
+    courseIds: [String],
+    taskIds: [String]
 },{collection:"users"});
 //var courseSchema = mongoose.Schema({ //Defines the Schema for this database
 //    courseName: String,
