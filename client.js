@@ -1,10 +1,10 @@
-function getSessionKey(netid,password,timeout)
+function getSessionKey(netID,password,timeout)
 {
 	var querystring = require('querystring');
 	var http = require('https');
 
 	var data = querystring.stringify({
-	      netId: netid,
+	      netId: netID,
 	      password: password,
 	      timeout: timeout
 	    });
@@ -26,9 +26,9 @@ function getSessionKey(netid,password,timeout)
 	        console.log("body: " + wsSession);
 	        console.log("shared: " + wsSession.sharedSecret);
 	        console.log("apikey: "+ wsSession.apiKey);
-	        var authHeader = encrypt('https://ws.byu.edu/rest/v2.1/identity/person/directory/Student/Name/1/Taylor/David',wsSession.sharedSecret,wsSession.apiKey);
+	        var authHeader = encrypt('https://ws.byu.edu/rest/v2.0/identity/person/directory/' + netID,wsSession.sharedSecret,wsSession.apiKey);
 	        console.log("header: "+authHeader);
-	        getRequest(authHeader);
+	        getRequest(authHeader, netID);
 	    });
 	});
 
@@ -72,12 +72,12 @@ function encrypt(url,sharedSecret,webServiceId)
 	return authorization;
 }
 
-function getRequest(authHeader)
+function getRequest(authHeader, netID)
 {
 	var https = require("https");
 	var https_get_options = {
 	    "host": 'ws.byu.edu',
-	    "path": '/rest/v2.1/identity/person/directory/Student/Name/1/Taylor/David',
+	    "path": '/rest/v2.0/identity/person/directory/' + netID,
 	    "port": '443',
 	    "method": 'GET',
 	    "headers": {

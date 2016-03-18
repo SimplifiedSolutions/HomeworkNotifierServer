@@ -1,0 +1,5 @@
+Retrieve photo by net_id
+https://ws.byu.edu/rest/v1.0/identity/person/idphoto/?n=<NETID>
+
+Retrieve person info (all personal info)
+https://ws.byu.edu/rest/v2.0/identity/person/directory/
