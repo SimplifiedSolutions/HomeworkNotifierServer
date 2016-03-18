@@ -89,7 +89,19 @@ function getRequest(authHeader, netID)
 		//console.log('HEADERS: ' + JSON.stringify(res.headers));
 		res.setEncoding('utf8');
 		res.on('data', function (chunk) {
-		  console.log('BODY: ' + chunk);
+		  //console.log('BODY: ' + chunk);
+			var jsonObj = JSON.parse(chunk);
+			var profile = jsonObj['PersonLookupService']['response']['information'][0];
+			var sortName = JSON.stringify(profile['sort_name']);
+
+			//things to return from this:
+			var personID = parseInt(profile['person_id']);
+			var lastName = sortName.substring(1, sortName.indexOf(','));
+			var firstName = sortName.substring(sortName.indexOf(',') + 2, sortName.length - 1);
+			console.log(JSON.stringify(profile));
+			console.log("your personid is: " + personID);
+			console.log("your name is:" + firstName + " " + lastName);
+
 		});
 	});
 	request.on('error', function(e) {
