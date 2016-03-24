@@ -1,4 +1,4 @@
-function getSessionKey(netID,password,timeout)
+function getSessionKey(netID,password,timeout,callback)
 {
 	var querystring = require('querystring');
 	var http = require('https');
@@ -26,9 +26,7 @@ function getSessionKey(netID,password,timeout)
 	        console.log("body: " + wsSession);
 	        console.log("shared: " + wsSession.sharedSecret);
 	        console.log("apikey: "+ wsSession.apiKey);
-	        var authHeader = encrypt('https://ws.byu.edu/rest/v2.0/identity/person/directory/' + netID,wsSession.sharedSecret,wsSession.apiKey);
-	        console.log("header: "+authHeader);
-	        getRequest(authHeader, netID);
+	        callback(wsSession);
 	    });
 	});
 
@@ -72,12 +70,12 @@ function encrypt(url,sharedSecret,webServiceId)
 	return authorization;
 }
 
-function getRequest(authHeader, netID)
+function getRequest(authHeader, host, path, callback)
 {
 	var https = require("https");
 	var https_get_options = {
-	    "host": 'ws.byu.edu',
-	    "path": '/rest/v2.0/identity/person/directory/' + netID,
+	    "host": host,
+	    "path": path,
 	    "port": '443',
 	    "method": 'GET',
 	    "headers": {
@@ -91,17 +89,7 @@ function getRequest(authHeader, netID)
 		res.on('data', function (chunk) {
 		  //console.log('BODY: ' + chunk);
 			var jsonObj = JSON.parse(chunk);
-			var profile = jsonObj['PersonLookupService']['response']['information'][0];
-			var sortName = JSON.stringify(profile['sort_name']);
-
-			//things to return from this:
-			var personID = parseInt(profile['person_id']);
-			var lastName = sortName.substring(1, sortName.indexOf(','));
-			var firstName = sortName.substring(sortName.indexOf(',') + 2, sortName.length - 1);
-			console.log(JSON.stringify(profile));
-			console.log("your personid is: " + personID);
-			console.log("your name is:" + firstName + " " + lastName);
-
+			callback(jsonObj);
 		});
 	});
 	request.on('error', function(e) {
@@ -109,10 +97,88 @@ function getRequest(authHeader, netID)
 	});
 	request.end();
 }
+
+function getRequestCallback(jsonObj)
+{
+    if(jsonObj['PersonLookupService']['response']['information'] != null) {
+        var profile = jsonObj['PersonLookupService']['response']['information'][0];
+        var sortName = JSON.stringify(profile['sort_name']);
+
+        //things to return from this:
+        var personID = parseInt(profile['person_id']);
+        var lastName = sortName.substring(1, sortName.indexOf(','));
+        var firstName = sortName.substring(sortName.indexOf(',') + 2, sortName.length - 1);
+        console.log(JSON.stringify(profile));
+        console.log("your personid is: " + personID);
+        console.log("your name is:" + firstName + " " + lastName);
+    }
+    else
+    {
+        console.log('does not exist');
+    }
+}
+
+function getStuff(wsSession)
+{
+	var host = 'ws.byu.edu';
+	var paths = ['https://ws.byu.edu/rest/v1.0/learningsuite/coursebuilder/course/personEnrolled/093230722/period/20131']
+	for(var i in paths)
+	{
+		var url = 'https://'+host+paths[i]
+		var authHeader = encrypt(url,wsSession.sharedSecret,wsSession.apiKey);
+        console.log();
+        console.log("url: "+url);
+		console.log("header: "+authHeader);
+		getRequest(authHeader, host, paths[i], getRequestCallback);
+	}
+
+}
+
+function logCallback(jsonObj)
+{
+    console.log(JSON.stringify(jsonObj));
+}
+
 //{"personId":"093230722","apiKey":"6YwYs8PLsqWG5Lrn9wwt","sharedSecret":"GwAwG6tzK4bxxdbls8foozJUIX_xFDKDiZOdziMV","expireDate":"2016-03-18T03:03:59.404-06:00"}
 //encrypt('https://ws.byu.edu/rest/v2.1/identity/person/directory/Student/Name/1/Taylor/David','iQprZOu93jHS6GxFwzQrZu-qSXtlAVBtm2S01A0t','gj-rQ-Pbq1NnsO5VGj1u');
 
 //getSessionKey('daviddt2','davidpaseo3','480');
-getSessionKey(process.argv[2],process.argv[3],process.argv[4]);
+console.log("Args:");
+for(var i in process.argv)
+{
+    console.log(i+': '+process.argv[i]);
+}
+switch (process.argv[2]) {
+    case "getSessionKey":
+        getSessionKey(process.argv[3],process.argv[4],480,function(result)
+        {
+            console.log("Ws-session:\n"+JSON.stringify(result));
+        });
+        break;
+    case "getAuthHeader":
+        if(process.argv.length == 6)
+        {
+            var auth = encrypt(process.argv[3],process.argv[4],process.argv[5]);
+            console.log("URL: "+process.argv[3]);
+            console.log("AuthHeader:");
+            console.log(auth);
+        }
+        else
+        {
+            console.log(process.argv.length);
+            console.log('Usage: getAuthHeader url sharedSecret webserviceId');
+        }
+
+        break;
+    case "test":
+        getSessionKey('daviddt2','davidpaseo3',480,getStuff);
+        break;
+    default:
+        console.log("not a function");
+}
+//getSessionKey(process.argv[2],process.argv[3],process.argv[4],logCallback);
+//encrypt(process.argv[5],)
 //encrypt('https://ws.byu.edu/rest/v2.1/identity/person/directory/Student/Name/1/Taylor/David',wsSession.sharedSecret,wsSession.apiKey);
+module.exports.getSessionKey=getSessionKey;
+module.exports.encrypt=encrypt;
 

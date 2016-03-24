@@ -1,5 +1,20 @@
+Example client.js usage
+
+	(This method is asynchronous)
+	node client.js getSessionKey daviddt2 davidpaseo3 callback
+
+	(This method is synchronous)
+	node client.js getAuthHeader "https://ws.byu.edu/rest/v1.0/learningsuite/coursebuilder/course/personEnrolled/093230722/period/20131" "Yo3-LLcvouf_sMsYC-LBXofSWpbYiwG2vloA4SH0" "OvOnDHZujNsSuUJDSTZT"
+
+
 Retrieve photo by net_id
 https://ws.byu.edu/rest/v1.0/identity/person/idphoto/?n=<NETID>
 
 Retrieve person info (all personal info)
 https://ws.byu.edu/rest/v2.0/identity/person/directory/
+
+Retrieve course Documentation
+https://byuapi.atlassian.net/wiki/display/SOA/Course
+
+Retrieve course by person enrolled and period
+https://ws.byu.edu/rest/v1.0/learningsuite/coursebuilder/course/personEnrolled/{yourPersonID}/period/20131
