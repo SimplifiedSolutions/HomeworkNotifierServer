@@ -180,5 +180,5 @@ switch (process.argv[2]) {
 //encrypt(process.argv[5],)
 //encrypt('https://ws.byu.edu/rest/v2.1/identity/person/directory/Student/Name/1/Taylor/David',wsSession.sharedSecret,wsSession.apiKey);
 module.exports.getSessionKey=getSessionKey;
-module.exports.encrypt=encrypt;
+module.exports.getAuthHeader=encrypt;
 
