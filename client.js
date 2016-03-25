@@ -179,6 +179,7 @@ switch (process.argv[2]) {
 //getSessionKey(process.argv[2],process.argv[3],process.argv[4],logCallback);
 //encrypt(process.argv[5],)
 //encrypt('https://ws.byu.edu/rest/v2.1/identity/person/directory/Student/Name/1/Taylor/David',wsSession.sharedSecret,wsSession.apiKey);
-module.exports.getSessionKey=getSessionKey;
-module.exports.getAuthHeader=encrypt;
+module.exports.getSessionKey=getSessionKey; //getSessionKey(netID,password,timeout,callback)
+module.exports.getAuthHeader=encrypt; //getAuthHeader(url,sharedSecret,webServiceId)
+module.exports.getRequest=getRequest; //getRequest(authHeader, host, path, callback)
 

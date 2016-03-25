@@ -6,6 +6,9 @@ Example client.js usage
 	(This method is synchronous)
 	node client.js getAuthHeader "https://ws.byu.edu/rest/v1.0/learningsuite/coursebuilder/course/personEnrolled/093230722/period/20131" "Yo3-LLcvouf_sMsYC-LBXofSWpbYiwG2vloA4SH0" "OvOnDHZujNsSuUJDSTZT"
 
+    //getSessionKey(netID,password,timeout,callback) ex: getSessionKey("daviddt2","password",480,doStuff)
+    //getAuthHeader(url,sharedSecret,webServiceId)   ex: String header = getAuthHeader("ttps://ws.byu.edu/rest/v1.0/learningsuite/coursebuilder/course/personEnrolled/093230722/period/20131","Yo3-LLcvouf_sMsYC-LBXofSWpbYiwG2vloA4SH0",OvOnDHZujNsSuUJDSTZT)
+    //getRequest(authHeader, host, path, callback)   ex: getRequest("daviddt2","ws.byu.edu","/rest/v1.0/learningsuite/coursebuilder/course/personEnrolled/"+personId+"/period/20131",saveData)
 
 Retrieve photo by net_id
 https://ws.byu.edu/rest/v1.0/identity/person/idphoto/?n=<NETID>
