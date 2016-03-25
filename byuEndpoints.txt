@@ -16,5 +16,13 @@ https://ws.byu.edu/rest/v2.0/identity/person/directory/
 Retrieve course Documentation
 https://byuapi.atlassian.net/wiki/display/SOA/Course
 
-Retrieve course by person enrolled and period
+Retrieve learning suite courses by person enrolled and period
 https://ws.byu.edu/rest/v1.0/learningsuite/coursebuilder/course/personEnrolled/{yourPersonID}/period/20131
+
+Retrieve course schedule by netid and semester (also possible with byuid and personid) -- doesn't give course id
+https://ws.byu.edu/rest/v1/academic/registration/enrollment/studentschedule/netid/ib37/20115
+    /studentschedule/byuid/764634873/20115
+    /studentschedule/personid/585241162/20115
+
+Get all assignments by course id
+https://ws.byu.edu/rest/v1.0/learningsuite/assignments/assignment/courseID/wg0ueViT9uzw

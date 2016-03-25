@@ -8,16 +8,12 @@ router.get('/', function (req, res, next) {
 
 /*************HANDLERS**********/
 router.post('/AddUser', function (req, res, next) {
-    //var jsonObject = req.body; //json object
-    //var jsonObject = JSON.parse(req.body); //string
+
     console.log(req.body);
-    var name = req.body.name;
-    var netId = req.body.netId;
-    var password = req.body.password;
 
     // Mongodb calls
     var newUser = new User(req.body);
-    newUser.save(function(err, post) { //[4]
+    newUser.save(function(err, post) {
         if (err){
             var jsonresult = {success: false, message: "Your request can has many many fail. For real."};
             console.error(jsonresult);
@@ -170,12 +166,33 @@ router.post('/DeleteTask', function (req, res, next) {
     res.status(200).json(jsonresult);
 });
 
+router.get('/GetAllInfo', function (req, res, next) {
+    console.log(req.body);
+    getAllInfo(key, sendDataCallback)
+});
+
+function getAllInfo(key, sendDataCallback){
+    //Get API-Key and Shared Secret
+    //Authenticate
+
+    //Get person id
+    // https://ws.byu.edu/rest/v2.0/identity/person/directory/{netid}
+
+    //Get courses for the user (course id, name, number, department)
+    // https://ws.byu.edu/rest/v1.0/learningsuite/coursebuilder/course/personEnrolled/{yourPersonID}/period/20131
+
+    //Get assignments for each course (assignment id, due date)
+    // https://ws.byu.edu/rest/v1.0/learningsuite/assignments/assignment/courseID/wg0ueViT9uzw
+
+    //Stream of callback functions with the final one that calls the sendDataCallback function
+}
+
 /**************END HANDLERS*************/
 module.exports = router;
 
 
 
-/* Set up mongoose in order to connect to mongo database */
+/**** Set up mongoose in order to connect to mongo database ****/
 var mongoose = require('mongoose'); //Adds mongoose as a usable dependency
 
 mongoose.connect('mongodb://ec2-54-187-234-170.us-west-2.compute.amazonaws.com/notifierDB'); //Connects to a mongo database called "commentDB"
