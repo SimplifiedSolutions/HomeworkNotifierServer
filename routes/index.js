@@ -174,7 +174,7 @@ router.get('/GetAllInfo', function (req, res, next) {
 function getAllInfo(key, sendDataCallback){
     //Get API-Key and Shared Secret
     //Authenticate
-
+    var auth = require('../byu-auth.js');
     //Get person id
     // https://ws.byu.edu/rest/v2.0/identity/person/directory/{netid}
 

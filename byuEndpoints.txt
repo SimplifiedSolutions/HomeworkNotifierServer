@@ -14,7 +14,7 @@ Retrieve photo by net_id
 https://ws.byu.edu/rest/v1.0/identity/person/idphoto/?n=<NETID>
 
 Retrieve person info (all personal info)
-https://ws.byu.edu/rest/v2.0/identity/person/directory/
+https://ws.byu.edu/rest/v2.1/identity/person/directory/
 
 Retrieve course Documentation
 https://byuapi.atlassian.net/wiki/display/SOA/Course

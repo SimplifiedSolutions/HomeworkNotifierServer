@@ -70,21 +70,20 @@ function encrypt(url,sharedSecret,webServiceId)
 	return authorization;
 }
 
-function getRequest(authHeader, host, path, callback)
+function getRequest(authHeader, requestedUrl, callback)
 {
-	var https = require("https");
-	var https_get_options = {
-	    "host": host,
-	    "path": path,
-	    "port": '443',
+    var url = require("url");
+    var parsedUrl = url.parse(requestedUrl);
+	var protocol = require(parsedUrl.protocol.replace(":",""));
+	var get_options = {
+	    "host": parsedUrl.hostname,
+	    "path": parsedUrl.pathname,
 	    "method": 'GET',
 	    "headers": {
 	        "Authorization": authHeader
 	    }
 	};
-	var request = https.request(https_get_options, function(res) {
-	    //console.log('STATUS: ' + res.statusCode);
-		//console.log('HEADERS: ' + JSON.stringify(res.headers));
+	var request = protocol.request(get_options, function(res) {
 		res.setEncoding('utf8');
 		res.on('data', function (chunk) {
 		  //console.log('BODY: ' + chunk);
@@ -100,17 +99,13 @@ function getRequest(authHeader, host, path, callback)
 
 function getRequestCallback(jsonObj)
 {
-    if(jsonObj['PersonLookupService']['response']['information'] != null) {
-        var profile = jsonObj['PersonLookupService']['response']['information'][0];
-        var sortName = JSON.stringify(profile['sort_name']);
-
-        //things to return from this:
-        var personID = parseInt(profile['person_id']);
-        var lastName = sortName.substring(1, sortName.indexOf(','));
-        var firstName = sortName.substring(sortName.indexOf(',') + 2, sortName.length - 1);
-        console.log(JSON.stringify(profile));
-        console.log("your personid is: " + personID);
-        console.log("your name is:" + firstName + " " + lastName);
+    if(jsonObj != null) {
+        //console.log(JSON.stringify(jsonObj));
+        var fs = require('fs');
+        fs.writeFile('./responses/assignments.js', jsonObj, function (err) {
+            if (err) return console.log(err);
+            console.log('Hello World > helloworld.txt');
+        });
     }
     else
     {
@@ -120,16 +115,14 @@ function getRequestCallback(jsonObj)
 
 function getStuff(wsSession)
 {
-	var host = 'ws.byu.edu';
-	var paths = ['https://ws.byu.edu/rest/v1.0/learningsuite/coursebuilder/course/personEnrolled/093230722/period/20131']
+	var paths = ['https://ws.byu.edu/rest/v1.0/learningsuite/assignments/assignment/courseID/5wyigGxZA8uJ'];
 	for(var i in paths)
 	{
-		var url = 'https://'+host+paths[i]
-		var authHeader = encrypt(url,wsSession.sharedSecret,wsSession.apiKey);
+		var authHeader = encrypt(paths[i],wsSession.sharedSecret,wsSession.apiKey);
         console.log();
-        console.log("url: "+url);
+        console.log("path: "+paths[i]);
 		console.log("header: "+authHeader);
-		getRequest(authHeader, host, paths[i], getRequestCallback);
+		getRequest(authHeader, paths[i], getRequestCallback);
 	}
 
 }
@@ -172,6 +165,7 @@ switch (process.argv[2]) {
         break;
     case "test":
         getSessionKey('daviddt2','davidpaseo3',480,getStuff);
+        //test(process.argv[3]);
         break;
     default:
         console.log("not a function");
