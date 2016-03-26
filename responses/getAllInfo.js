@@ -1,626 +1,2086 @@
 {
-    "user": {
-        "id": "093230722",
-            "courses": [
-            {
-                "id": "Mc4Brhlpuqwh",
-                "title": "Algorithm Design + Analysis",
-                "shortTitle": "C S 312",
-                "assignments": [
-                    {
-                        "id": "6YYykuhR0w8V",
-                        "dueDate": 1455865140
-                    },
-                    {
-                        "id": "7dYuv1ppeMhA",
-                        "dueDate": 1459490340
-                    },
-                    {
-                        "id": "Act8KonQ_GIQ",
-                        "dueDate": 1458107940
-                    },
-                    {
-                        "id": "BUZ0Xhs9VOaa",
-                        "dueDate": 1456469940
-                    },
-                    {
-                        "id": "F__5ujSqA5sm",
-                        "dueDate": 1455260340
-                    },
-                    {
-                        "id": "JnYtjSKXtRAa",
-                        "dueDate": 1454050740
-                    },
-                    {
-                        "id": "KWF2DDKL9MwA",
-                        "dueDate": 1456815540
-                    },
-                    {
-                        "id": "MDp_1gHO5JyS",
-                        "dueDate": 1453273140
-                    },
-                    {
-                        "id": "Nvsh7vKMxV8S",
-                        "dueDate": 1460527140
-                    },
-                    {
-                        "id": "PDto0ue2AH9W",
-                        "dueDate": 1453273140
-                    },
-                    {
-                        "id": "SwWNGF1UunVE",
-                        "dueDate": 1458712740
-                    },
-                    {
-                        "id": "XckOUK2KHjYr",
-                        "dueDate": 1457679540
-                    },
-                    {
-                        "id": "YSu-Lk2LP8gB",
-                        "dueDate": 1458885540
-                    },
-                    {
-                        "id": "YY6Ui80ElfrH",
-                        "dueDate": 1456901940
-                    },
-                    {
-                        "id": "_19-tMa5OLag",
-                        "dueDate": 1454655540
-                    },
-                    {
-                        "id": "gA8V0geKrcqa",
-                        "dueDate": 1453445940
-                    },
-                    {
-                        "id": "k6x36OXNMvOS",
-                        "dueDate": 1452841140
-                    },
-                    {
-                        "id": "lnHt_epfAVI2",
-                        "dueDate": 1454482740
-                    },
-                    {
-                        "id": "nu2oYQgbQf5v",
-                        "dueDate": 1453877940
-                    },
-                    {
-                        "id": "sccpB1gW0UmR",
-                        "dueDate": 1458107940
-                    },
-                    {
-                        "id": "tjQ5pL49xA2a",
-                        "dueDate": 1452668340
-                    },
-                    {
-                        "id": "vzKZ5hyWLiEM",
-                        "dueDate": 1457074740
-                    },
-                    {
-                        "id": "yYIgYnN1D1FL",
-                        "dueDate": 1455087540
-                    },
-                    {
-                        "id": "zb0EK5o-Vmuk",
-                        "dueDate": 1454655540
-                    },
-                    {
-                        "id": "tRLjHUjlPTqM",
-                        "dueDate": 1452841140
-                    },
-                    {
-                        "id": "hJGbo_WHLi1i",
-                        "dueDate": 1453877940
-                    },
-                    {
-                        "id": "xvg4-gzN1ebu",
-                        "dueDate": 1455260340
-                    },
-                    {
-                        "id": "TIoVCKyzCxL4",
-                        "dueDate": 1456372800
-                    },
-                    {
-                        "id": "H2D-oOqozdu-",
-                        "dueDate": 1457074740
-                    },
-                    {
-                        "id": "cY50yn9YY6eG",
-                        "dueDate": 1458712740
-                    }
-                ]
-            },
-            {
-                "id": "5wyigGxZA8uJ",
-                "title": "Software Engineering",
-                "shortTitle": "C S 428",
-                "assignments": [
-                    {
-                        "id": "0_IchiuRTzUE",
-                        "dueDate": 1459375200
-                    },
-                    {
-                        "id": "BGa8FTgR4Gnp",
-                        "dueDate": 1454540400
-                    },
-                    {
-                        "id": "BHdMWXI9b70L",
-                        "dueDate": 1453618740
-                    },
-                    {
-                        "id": "KN7lyVw0anWe",
-                        "dueDate": 1453013940
-                    },
-                    {
-                        "id": "RLfvUrN95uos",
-                        "dueDate": 1459980000
-                    },
-                    {
-                        "id": "SWRp9mbx2aYN",
-                        "dueDate": 1460267940
-                    },
-                    {
-                        "id": "USdayEofQCij",
-                        "dueDate": 1460181540
-                    },
-                    {
-                        "id": "_UhQL3N8MJdZ",
-                        "dueDate": 1460181540
-                    },
-                    {
-                        "id": "bWU7pEz9x_Ny",
-                        "dueDate": 1456037940
-                    },
-                    {
-                        "id": "bg3DWjq3A6Rb",
-                        "dueDate": 1460181540
-                    },
-                    {
-                        "id": "kc5tnhze702K",
-                        "dueDate": 1460181540
-                    },
-                    {
-                        "id": "mHJQM77Xw5GD",
-                        "dueDate": 1454223540
-                    },
-                    {
-                        "id": "mQfRyYKPmfoc",
-                        "dueDate": 1460008740
-                    },
-                    {
-                        "id": "tKeP8a-gxpnJ",
-                        "dueDate": 1454828340
-                    },
-                    {
-                        "id": "tYniptys8XWh",
-                        "dueDate": 1455433140
-                    },
-                    {
-                        "id": "td3IU91giAVP",
-                        "dueDate": 1452726000
-                    },
-                    {
-                        "id": "-IWjqkSoWBfq",
-                        "dueDate": 1452726000
-                    },
-                    {
-                        "id": "3d3yon3K390E",
-                        "dueDate": 1455433140
-                    },
-                    {
-                        "id": "4N-sjTq5GSwd",
-                        "dueDate": 1457247540
-                    },
-                    {
-                        "id": "4PAIWxs_XO29",
-                        "dueDate": 1454223540
-                    },
-                    {
-                        "id": "5Mdq5BpkxaXN",
-                        "dueDate": 1457852340
-                    },
-                    {
-                        "id": "Fe641bnHWd8p",
-                        "dueDate": 1454828340
-                    },
-                    {
-                        "id": "IuIyc7z3Rmoz",
-                        "dueDate": 1456642740
-                    },
-                    {
-                        "id": "P1gsflHKAfK_",
-                        "dueDate": 1458453540
-                    },
-                    {
-                        "id": "VKMSpZWCXhhJ",
-                        "dueDate": 1456037940
-                    },
-                    {
-                        "id": "XgFSfQbRbj1E",
-                        "dueDate": 1460267940
-                    },
-                    {
-                        "id": "_wT87tRsoZKB",
-                        "dueDate": 1454223540
-                    },
-                    {
-                        "id": "jaZxqj2fpGel",
-                        "dueDate": 1459058340
-                    },
-                    {
-                        "id": "k4smTZtzFriJ",
-                        "dueDate": 1453618740
-                    },
-                    {
-                        "id": "pt-GCSxr1VaK",
-                        "dueDate": 1459663140
-                    },
-                    {
-                        "id": "sBcyjGCYr4C0",
-                        "dueDate": 1453013940
-                    },
-                    {
-                        "id": "MHCF3raG605R",
-                        "dueDate": 1456974000
-                    },
-                    {
-                        "id": "OitaxLEHuv0i",
-                        "dueDate": 1458453540
-                    },
-                    {
-                        "id": "RbelprM5VycJ",
-                        "dueDate": 1460505600
-                    }
-                ]
-            },
-            {
-                "id": "g0_J6J0Psrf3",
-                "title": "Intro to User Interface Softwr",
-                "shortTitle": "C S 456",
-                "assignments": [
-                    {
-                        "id": "0lwiYZ7VVS8D",
-                        "dueDate": 1459835940
-                    },
-                    {
-                        "id": "CtsQMfPL9teY",
-                        "dueDate": 1458626340
-                    },
-                    {
-                        "id": "HhCVqKTAxje8",
-                        "dueDate": 1457420340
-                    },
-                    {
-                        "id": "Iac-WP6w7AED",
-                        "dueDate": 1460838600
-                    },
-                    {
-                        "id": "IqaqAHDgDEiV",
-                        "dueDate": 1456815540
-                    },
-                    {
-                        "id": "MyTm_suti6M-",
-                        "dueDate": 1456210740
-                    },
-                    {
-                        "id": "XzPkxl1PK2H2",
-                        "dueDate": 1453532340
-                    },
-                    {
-                        "id": "aMp4FW3KXUDf",
-                        "dueDate": 1454396340
-                    },
-                    {
-                        "id": "lzdDSST3qJLL",
-                        "dueDate": 1455692340
-                    },
-                    {
-                        "id": "qMBbd7_hRIHf",
-                        "dueDate": 1452322740
-                    },
-                    {
-                        "id": "uo47Bz6HKg4q",
-                        "dueDate": 1455001140
-                    }
-                ]
-            },
-            {
-                "id": "fMk8G_KoOvoH",
-                "title": "Ethics + Computers in Society",
-                "shortTitle": "C S 404",
-                "assignments": [
-                    {
-                        "id": "5wPPB9pIXFQb",
-                        "dueDate": 1459490340
-                    },
-                    {
-                        "id": "8kgrNkZO89mh",
-                        "dueDate": 1459663140
-                    },
-                    {
-                        "id": "U2fYdtWaHH69",
-                        "dueDate": 1458280740
-                    },
-                    {
-                        "id": "ZIr8zsGyHJZ0",
-                        "dueDate": 1458453540
-                    },
-                    {
-                        "id": "lVxsIjHyn1Iu",
-                        "dueDate": 1456469940
-                    },
-                    {
-                        "id": "n4nQ46QYYmzi",
-                        "dueDate": 1456297140
-                    },
-                    {
-                        "id": "nvKH4tdkJsgh",
-                        "dueDate": 1454482740
-                    },
-                    {
-                        "id": "rqMUxPwMajXO",
-                        "dueDate": 1454050740
-                    },
-                    {
-                        "id": "GjupJrQGmrkd",
-                        "dueDate": 1458655200
-                    },
-                    {
-                        "id": "ICtZCYyE0vFu",
-                        "dueDate": 1460527140
-                    },
-                    {
-                        "id": "-j2u7RmP3KOD",
-                        "dueDate": 1456848900
-                    },
-                    {
-                        "id": "2ydp5eLp2YU-",
-                        "dueDate": 1457626500
-                    },
-                    {
-                        "id": "KRx4NEIh_TrZ",
-                        "dueDate": 1454602500
-                    },
-                    {
-                        "id": "PO4SoIB-SlX7",
-                        "dueDate": 1458832500
-                    },
-                    {
-                        "id": "Q7JY2fnPVjfU",
-                        "dueDate": 1460474100
-                    },
-                    {
-                        "id": "usaF27kmm5S4",
-                        "dueDate": 1453392900
-                    },
-                    {
-                        "id": "0BV7k-odJOdr",
-                        "dueDate": 1460527140
-                    },
-                    {
-                        "id": "GCmtTfix2qB0",
-                        "dueDate": 1452927540
-                    },
-                    {
-                        "id": "-VoFzcKL6fWS",
-                        "dueDate": 1460037600
-                    },
-                    {
-                        "id": "la0YSrGIFJnl",
-                        "dueDate": 1457017200
-                    },
-                    {
-                        "id": "oJiVZdtm2O3T",
-                        "dueDate": 1455066000
-                    },
-                    {
-                        "id": "74HlSj60sIyi",
-                        "dueDate": 1454655540
-                    },
-                    {
-                        "id": "ASQYrLxmA690",
-                        "dueDate": 1458107940
-                    },
-                    {
-                        "id": "EsWWH9jn193i",
-                        "dueDate": 1456469940
-                    },
-                    {
-                        "id": "Qq4eu3uQs55z",
-                        "dueDate": 1453445940
-                    },
-                    {
-                        "id": "pt8nmpxl4py6",
-                        "dueDate": 1458885540
-                    },
-                    {
-                        "id": "TcSi4SUsLnHW",
-                        "dueDate": 1453216500
-                    }
-                ]
-            },
-            {
-                "id": "W4dhJEVp9d-c",
-                "title": "Internet Programming",
-                "shortTitle": "C S 360",
-                "assignments": [
-                    {
-                        "id": "iO0jUw7Dh-8O",
-                        "dueDate": 1451977140
-                    },
-                    {
-                        "id": "tLQ9XtAq41Ng",
-                        "dueDate": 1452322740
-                    },
-                    {
-                        "id": "w8CU1maYyRlN",
-                        "dueDate": 1452322740
-                    },
-                    {
-                        "id": "L-4a_z6WszPh",
-                        "dueDate": 1452581940
-                    },
-                    {
-                        "id": "BOjual0kiVIo",
-                        "dueDate": 1452754740
-                    },
-                    {
-                        "id": "wvLsUSvA2rES",
-                        "dueDate": 1452754740
-                    },
-                    {
-                        "id": "A5n98ZbFEIMt",
-                        "dueDate": 1453359540
-                    },
-                    {
-                        "id": "qmOFwBtKB8Y5",
-                        "dueDate": 1453532340
-                    },
-                    {
-                        "id": "-DBb7mgMppOu",
-                        "dueDate": 1453791540
-                    },
-                    {
-                        "id": "rvqfg7FqOAbP",
-                        "dueDate": 1453791540
-                    },
-                    {
-                        "id": "TxCZzNQTefxY",
-                        "dueDate": 1453964340
-                    },
-                    {
-                        "id": "J7CljFPvJN1X",
-                        "dueDate": 1454137140
-                    },
-                    {
-                        "id": "KothGPfWpGCC",
-                        "dueDate": 1454569140
-                    },
-                    {
-                        "id": "eC0GkJ1TqLRB",
-                        "dueDate": 1454569140
-                    },
-                    {
-                        "id": "sWZlhz00h3e0",
-                        "dueDate": 1454741940
-                    },
-                    {
-                        "id": "yfhU_MR2X6Q4",
-                        "dueDate": 1455001140
-                    },
-                    {
-                        "id": "bUu0lOpUSSOv",
-                        "dueDate": 1455173940
-                    },
-                    {
-                        "id": "UcYsm1TOk9Xz",
-                        "dueDate": 1455692340
-                    },
-                    {
-                        "id": "dy0801FF6Piv",
-                        "dueDate": 1455692340
-                    },
-                    {
-                        "id": "syiNGmnClR3V",
-                        "dueDate": 1455778740
-                    },
-                    {
-                        "id": "Fdlo59_BhdAA",
-                        "dueDate": 1455940800
-                    },
-                    {
-                        "id": "lUa5KHBlegDW",
-                        "dueDate": 1456210740
-                    },
-                    {
-                        "id": "mEpD0zrw6Baz",
-                        "dueDate": 1456210740
-                    },
-                    {
-                        "id": "W2X_qBSvyfru",
-                        "dueDate": 1456383540
-                    },
-                    {
-                        "id": "5Cllw8kxmSfa",
-                        "dueDate": 1456815540
-                    },
-                    {
-                        "id": "TSBjpW5eh0yv",
-                        "dueDate": 1456815540
-                    },
-                    {
-                        "id": "kmfpk7Cz6tud",
-                        "dueDate": 1457161140
-                    },
-                    {
-                        "id": "vTUcEXVxOLNJ",
-                        "dueDate": 1457420340
-                    },
-                    {
-                        "id": "3N35xN0xUCRA",
-                        "dueDate": 1457593140
-                    },
-                    {
-                        "id": "4be_GzzCCvnL",
-                        "dueDate": 1457593140
-                    },
-                    {
-                        "id": "5h_uKEKiistz",
-                        "dueDate": 1458021540
-                    },
-                    {
-                        "id": "9SmFOZ0APeqd",
-                        "dueDate": 1458021540
-                    },
-                    {
-                        "id": "o0HaV_xvxJjd",
-                        "dueDate": 1458021540
-                    },
-                    {
-                        "id": "z-cxDYCyZydd",
-                        "dueDate": 1458194340
-                    },
-                    {
-                        "id": "92ZeDcbfxbsY",
-                        "dueDate": 1458367140
-                    },
-                    {
-                        "id": "HPhl1UjL-R6-",
-                        "dueDate": 1458626340
-                    },
-                    {
-                        "id": "MuWfQPMTNqk8",
-                        "dueDate": 1458626340
-                    },
-                    {
-                        "id": "97hxoQvG8l9M",
-                        "dueDate": 1458971940
-                    },
-                    {
-                        "id": "xdpxaNc-2A_7",
-                        "dueDate": 1459231140
-                    },
-                    {
-                        "id": "4xrJdStBwVxS",
-                        "dueDate": 1459576740
-                    },
-                    {
-                        "id": "02nHJkH7CtKb",
-                        "dueDate": 1459835940
-                    },
-                    {
-                        "id": "PwbLn04lSUTX",
-                        "dueDate": 1459835940
-                    },
-                    {
-                        "id": "DXkvemuiz4NT",
-                        "dueDate": 1460440740
-                    },
-                    {
-                        "id": "HTbLZEkY91e4",
-                        "dueDate": 1460440740
-                    }
-                ]
-            }
+  "user": {
+    "id": "093230722",
+    "courses": [
+      {
+        "id": "Mc4Brhlpuqwh",
+        "title": "Algorithm Design + Analysis",
+        "shortTitle": "C S 312",
+        "assignments": [
+          {
+            "id": "6YYykuhR0w8V",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1455865140,
+            "graded": true,
+            "name": "HW 11",
+            "points": 11,
+            "type": "assignment",
+            "url": "JJaE",
+            "weight": 25
+          },
+          {
+            "id": "7dYuv1ppeMhA",
+            "categoryID": "QBHfijrjqwmQ",
+            "category": "Projects",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "<p>See&nbsp;<a href=\"http://axon.cs.byu.edu/Dan/312/projects/TSP.php\">http://axon.cs.byu.edu/Dan/312/projects/TSP.php</a></p>\n",
+            "dueDate": 1459490340,
+            "graded": true,
+            "name": "Project 5",
+            "points": 90,
+            "type": "assignment",
+            "url": "a9WX",
+            "weight": 6.54545
+          },
+          {
+            "id": "Act8KonQ_GIQ",
+            "categoryID": "QBHfijrjqwmQ",
+            "category": "Projects",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "<p>See&nbsp;<a href=\"http://axon.cs.byu.edu/Dan/312/projects/GeneSequencing.php\">http://axon.cs.byu.edu/Dan/312/projects/GeneSequencing.php</a></p>\n",
+            "dueDate": 1458107940,
+            "graded": true,
+            "name": "Project 4",
+            "points": 90,
+            "type": "assignment",
+            "url": "OMde",
+            "weight": 6.54545
+          },
+          {
+            "id": "BUZ0Xhs9VOaa",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1456469940,
+            "graded": true,
+            "name": "HW 12",
+            "points": 8,
+            "type": "assignment",
+            "url": "SQx9",
+            "weight": 25
+          },
+          {
+            "id": "F__5ujSqA5sm",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1455260340,
+            "graded": true,
+            "name": "HW 10",
+            "points": 8,
+            "type": "assignment",
+            "url": "uIvb",
+            "weight": 25
+          },
+          {
+            "id": "JnYtjSKXtRAa",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1454050740,
+            "graded": true,
+            "name": "HW 6",
+            "points": 9,
+            "type": "assignment",
+            "url": "JCBm",
+            "weight": 25
+          },
+          {
+            "id": "KWF2DDKL9MwA",
+            "categoryID": "QBHfijrjqwmQ",
+            "category": "Projects",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "<p>See&nbsp;<a href=\"http://axon.cs.byu.edu/Dan/312/projects/NetworkRouting.php\">http://axon.cs.byu.edu/Dan/312/projects/NetworkRouting.php</a></p>\n",
+            "dueDate": 1456815540,
+            "graded": true,
+            "name": "Project 3",
+            "points": 90,
+            "type": "assignment",
+            "url": "rBk5",
+            "weight": 6.54545
+          },
+          {
+            "id": "MDp_1gHO5JyS",
+            "categoryID": "QBHfijrjqwmQ",
+            "category": "Projects",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "<p>See&nbsp;<a href=\"http://axon.cs.byu.edu/Dan/312/projects/Fermat.php\">http://axon.cs.byu.edu/Dan/312/projects/Fermat.php</a></p>\n",
+            "dueDate": 1453273140,
+            "graded": true,
+            "name": "Project 1",
+            "points": 90,
+            "type": "assignment",
+            "url": "QZ9i",
+            "weight": 3.27272
+          },
+          {
+            "id": "Nvsh7vKMxV8S",
+            "categoryID": "QBHfijrjqwmQ",
+            "category": "Projects",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "<p>See&nbsp;<a href=\"http://axon.cs.byu.edu/Dan/312/projects/TSPGroup.php\">http://axon.cs.byu.edu/Dan/312/projects/TSPGroup.php</a></p>\n",
+            "dueDate": 1460527140,
+            "graded": true,
+            "name": "Project 6",
+            "points": 100,
+            "type": "assignment",
+            "url": "YB2X",
+            "weight": 7.27273
+          },
+          {
+            "id": "PDto0ue2AH9W",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1453273140,
+            "graded": true,
+            "name": "HW 3",
+            "points": 12,
+            "type": "assignment",
+            "url": "EbW6",
+            "weight": 25
+          },
+          {
+            "id": "SwWNGF1UunVE",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1458712740,
+            "graded": true,
+            "name": "HW 19",
+            "points": 8,
+            "type": "assignment",
+            "url": "gCQ8",
+            "weight": 25
+          },
+          {
+            "id": "XckOUK2KHjYr",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1457679540,
+            "graded": true,
+            "name": "HW 16",
+            "points": 8,
+            "type": "assignment",
+            "url": "rEbL",
+            "weight": 25
+          },
+          {
+            "id": "YSu-Lk2LP8gB",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1458885540,
+            "graded": true,
+            "name": "HW 20",
+            "points": 5,
+            "type": "assignment",
+            "url": "PpGt",
+            "weight": 25
+          },
+          {
+            "id": "YY6Ui80ElfrH",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1456901940,
+            "graded": true,
+            "name": "HW 13",
+            "points": 5,
+            "type": "assignment",
+            "url": "PfyV",
+            "weight": 25
+          },
+          {
+            "id": "_19-tMa5OLag",
+            "categoryID": "QBHfijrjqwmQ",
+            "category": "Projects",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "<p>See&nbsp;<a href=\"http://axon.cs.byu.edu/Dan/312/projects/ConvexHull.php\">http://axon.cs.byu.edu/Dan/312/projects/ConvexHull.php</a></p>\n",
+            "dueDate": 1454655540,
+            "graded": true,
+            "name": "Project 2",
+            "points": 90,
+            "type": "assignment",
+            "url": "GDaT",
+            "weight": 6.54545
+          },
+          {
+            "id": "gA8V0geKrcqa",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1453445940,
+            "graded": true,
+            "name": "HW 4",
+            "points": 12,
+            "type": "assignment",
+            "url": "-Nf8",
+            "weight": 25
+          },
+          {
+            "id": "k6x36OXNMvOS",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "<p><a href=\"#\" onclick=\"window.open( getURLForCurrentSession('lti/VFQWc_z3Muum'), '_blank'); return false;\">http://axon.cs.byu.edu/Dan/312/assignments.php?id=2</a></p>\n",
+            "dueDate": 1452841140,
+            "graded": true,
+            "name": "HW 2",
+            "points": 10,
+            "type": "assignment",
+            "url": "RPbT",
+            "weight": 25
+          },
+          {
+            "id": "lnHt_epfAVI2",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1454482740,
+            "graded": true,
+            "name": "HW 7",
+            "points": 12,
+            "type": "assignment",
+            "url": "M3QK",
+            "weight": 25
+          },
+          {
+            "id": "nu2oYQgbQf5v",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1453877940,
+            "graded": true,
+            "name": "HW 5",
+            "points": 12,
+            "type": "assignment",
+            "url": "ovSi",
+            "weight": 25
+          },
+          {
+            "id": "sccpB1gW0UmR",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1458107940,
+            "graded": true,
+            "name": "HW 17",
+            "points": 8,
+            "type": "assignment",
+            "url": "mRxw",
+            "weight": 25
+          },
+          {
+            "id": "tjQ5pL49xA2a",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1452668340,
+            "graded": true,
+            "name": "HW 1",
+            "points": 10,
+            "type": "assignment",
+            "url": "zW6E",
+            "weight": 25
+          },
+          {
+            "id": "vzKZ5hyWLiEM",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1457074740,
+            "graded": true,
+            "name": "HW 14",
+            "points": 18,
+            "type": "assignment",
+            "url": "emfb",
+            "weight": 25
+          },
+          {
+            "id": "yYIgYnN1D1FL",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1455087540,
+            "graded": true,
+            "name": "HW 9",
+            "points": 10,
+            "type": "assignment",
+            "url": "1gwK",
+            "weight": 25
+          },
+          {
+            "id": "zb0EK5o-Vmuk",
+            "categoryID": "p_-6StWVifHC",
+            "category": "Homework",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1454655540,
+            "graded": true,
+            "name": "HW 8",
+            "points": 10,
+            "type": "assignment",
+            "url": "L2rJ",
+            "weight": 25
+          },
+          {
+            "id": "tRLjHUjlPTqM",
+            "categoryID": "QBHfijrjqwmQ",
+            "category": "Projects",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "Project 1 Design Experience",
+            "dueDate": 1452841140,
+            "graded": true,
+            "name": "Project 1 Design Experience",
+            "points": 10,
+            "type": "Exam",
+            "url": "D8uU",
+            "weight": 0.363636
+          },
+          {
+            "id": "hJGbo_WHLi1i",
+            "categoryID": "QBHfijrjqwmQ",
+            "category": "Projects",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "Project 2 Design Experience",
+            "dueDate": 1453877940,
+            "graded": true,
+            "name": "Project 2 Design Experience",
+            "points": 10,
+            "type": "Exam",
+            "url": "AwDV",
+            "weight": 0.727272
+          },
+          {
+            "id": "xvg4-gzN1ebu",
+            "categoryID": "QBHfijrjqwmQ",
+            "category": "Projects",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "Project 3 Design Experience",
+            "dueDate": 1455260340,
+            "graded": true,
+            "name": "Project 3 Design Experience",
+            "points": 10,
+            "type": "Exam",
+            "url": "vTME",
+            "weight": 0.727272
+          },
+          {
+            "id": "TIoVCKyzCxL4",
+            "categoryID": "YH5hs9Tn1uDG",
+            "category": "Exams",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "",
+            "dueDate": 1456372800,
+            "graded": true,
+            "name": "Mid Term Exam",
+            "points": 100,
+            "type": "ExamTC",
+            "url": "0R_H",
+            "weight": 45
+          },
+          {
+            "id": "H2D-oOqozdu-",
+            "categoryID": "QBHfijrjqwmQ",
+            "category": "Projects",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "Project 4 Design Experience",
+            "dueDate": 1457074740,
+            "graded": true,
+            "name": "Project 4 Design Experience",
+            "points": 10,
+            "type": "Exam",
+            "url": "IU03",
+            "weight": 0.727272
+          },
+          {
+            "id": "cY50yn9YY6eG",
+            "categoryID": "QBHfijrjqwmQ",
+            "category": "Projects",
+            "courseID": "Mc4Brhlpuqwh",
+            "description": "Project 5 Design Experience",
+            "dueDate": 1458712740,
+            "graded": true,
+            "name": "Project 5 Design Experience",
+            "points": 10,
+            "type": "Exam",
+            "url": "CUj8",
+            "weight": 0.727272
+          }
         ]
-    }
+      },
+      {
+        "id": "5wyigGxZA8uJ",
+        "title": "Software Engineering",
+        "shortTitle": "C S 428",
+        "assignments": [
+          {
+            "id": "0_IchiuRTzUE",
+            "categoryID": "T0LTPISJ6ZgW",
+            "category": "Readings",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "<p>Grade for reading selections of The Mythical Man-Month.</p>\n",
+            "dueDate": 1459375200,
+            "graded": true,
+            "name": "Read Mythical Man-Month",
+            "points": 100,
+            "type": "assignment",
+            "url": "ETBR",
+            "weight": 3
+          },
+          {
+            "id": "BGa8FTgR4Gnp",
+            "categoryID": "T0LTPISJ6ZgW",
+            "category": "Readings",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "<p>Grade for reading all of Peopleware.</p>\n",
+            "dueDate": 1454540400,
+            "graded": true,
+            "name": "Read Peopleware",
+            "points": 100,
+            "type": "assignment",
+            "url": "p2qL",
+            "weight": 3
+          },
+          {
+            "id": "BHdMWXI9b70L",
+            "categoryID": "MHDwlFKDHEaA",
+            "category": "Project - Team Deliverables",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "",
+            "dueDate": 1453618740,
+            "graded": true,
+            "name": "#2 Team Deliverable: Organization Chart",
+            "points": 100,
+            "type": "assignment",
+            "url": "ti0j",
+            "weight": 1
+          },
+          {
+            "id": "KN7lyVw0anWe",
+            "categoryID": "MHDwlFKDHEaA",
+            "category": "Project - Team Deliverables",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "",
+            "dueDate": 1453013940,
+            "graded": true,
+            "name": "#1 Team Deliverable: Publically Accessible Project Wiki",
+            "points": 100,
+            "type": "assignment",
+            "url": "N_2i",
+            "weight": 0.5
+          },
+          {
+            "id": "RLfvUrN95uos",
+            "categoryID": "T0LTPISJ6ZgW",
+            "category": "Readings",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "<p>Grade for reading all of Dynamics of Software Development.</p>\n",
+            "dueDate": 1459980000,
+            "graded": true,
+            "name": "Read Dynamics of Software Development",
+            "points": 100,
+            "type": "assignment",
+            "url": "OXQb",
+            "weight": 3
+          },
+          {
+            "id": "SWRp9mbx2aYN",
+            "categoryID": "kkmj_iY16x4A",
+            "category": "Essay",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "",
+            "dueDate": 1460267940,
+            "graded": true,
+            "name": "Essay",
+            "points": 100,
+            "type": "assignment",
+            "url": "o28X",
+            "weight": 2
+          },
+          {
+            "id": "USdayEofQCij",
+            "categoryID": "HtDR6F49kP3X",
+            "category": "Podcast Lectures",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "",
+            "dueDate": 1460181540,
+            "graded": true,
+            "name": "Overall Podcast Videos Grade (for details, see Custom Reporting Tool)",
+            "points": 14,
+            "type": "assignment",
+            "url": "QBuS",
+            "weight": 7
+          },
+          {
+            "id": "_UhQL3N8MJdZ",
+            "categoryID": "4nZm5_6MPu3K",
+            "category": "Extra Credit",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "",
+            "dueDate": 1460181540,
+            "graded": true,
+            "name": "Overall Extra Credit (computed at end of semester)",
+            "points": 6,
+            "type": "assignment",
+            "url": "5Une",
+            "weight": 6
+          },
+          {
+            "id": "bWU7pEz9x_Ny",
+            "categoryID": "MHDwlFKDHEaA",
+            "category": "Project - Team Deliverables",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "",
+            "dueDate": 1456037940,
+            "graded": true,
+            "name": "#6 Team Deliverable: Test Plan and Specification",
+            "points": 100,
+            "type": "assignment",
+            "url": "bMuA",
+            "weight": 2
+          },
+          {
+            "id": "bg3DWjq3A6Rb",
+            "categoryID": "HtDR6F49kP3X",
+            "category": "Podcast Lectures",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "",
+            "dueDate": 1460181540,
+            "graded": true,
+            "name": "Overall Podcast Readings Grade (for details, see Custom Reporting Tool)",
+            "points": 900,
+            "type": "assignment",
+            "url": "kew3",
+            "weight": 3.6
+          },
+          {
+            "id": "kc5tnhze702K",
+            "categoryID": "DI7NMahzVk2X",
+            "category": "Course Attendance",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "<p>Course attendance grade.</p>\n",
+            "dueDate": 1460181540,
+            "graded": true,
+            "name": "Overall Course Attendance Grade",
+            "points": 100,
+            "type": "assignment",
+            "url": "Ly8I",
+            "weight": 100
+          },
+          {
+            "id": "mHJQM77Xw5GD",
+            "categoryID": "MHDwlFKDHEaA",
+            "category": "Project - Team Deliverables",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "",
+            "dueDate": 1454223540,
+            "graded": true,
+            "name": "#3 Team Deliverable: Requirements Document",
+            "points": 100,
+            "type": "assignment",
+            "url": "yLEn",
+            "weight": 2
+          },
+          {
+            "id": "mQfRyYKPmfoc",
+            "categoryID": "MHDwlFKDHEaA",
+            "category": "Project - Team Deliverables",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "",
+            "dueDate": 1460008740,
+            "graded": true,
+            "name": "#8 Team Deliverable: Video Report of Project",
+            "points": 100,
+            "type": "assignment",
+            "url": "TTr7",
+            "weight": 2
+          },
+          {
+            "id": "tKeP8a-gxpnJ",
+            "categoryID": "MHDwlFKDHEaA",
+            "category": "Project - Team Deliverables",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "",
+            "dueDate": 1454828340,
+            "graded": true,
+            "name": "#4 Team Deliverable: Pert & Gantt Charts",
+            "points": 100,
+            "type": "assignment",
+            "url": "WCHU",
+            "weight": 2
+          },
+          {
+            "id": "tYniptys8XWh",
+            "categoryID": "MHDwlFKDHEaA",
+            "category": "Project - Team Deliverables",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "",
+            "dueDate": 1455433140,
+            "graded": true,
+            "name": "#5 Team Deliverable: Design Document",
+            "points": 100,
+            "type": "assignment",
+            "url": "CZF_",
+            "weight": 2
+          },
+          {
+            "id": "td3IU91giAVP",
+            "categoryID": "T0LTPISJ6ZgW",
+            "category": "Readings",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "<p>Grade for reading The Five Orders of Ignorance.</p>\n",
+            "dueDate": 1452726000,
+            "graded": true,
+            "name": "Read Orders of Ignorance",
+            "points": 100,
+            "type": "assignment",
+            "url": "dAZn",
+            "weight": 0.4
+          },
+          {
+            "id": "-IWjqkSoWBfq",
+            "categoryID": "b7zt9jxXPRLu",
+            "category": "Project - Weekly Reports",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Project report for week 1.",
+            "dueDate": 1452726000,
+            "graded": true,
+            "name": "#1 Project Report",
+            "points": 10,
+            "type": "Exam",
+            "url": "zSAK",
+            "weight": 1.5
+          },
+          {
+            "id": "3d3yon3K390E",
+            "categoryID": "b7zt9jxXPRLu",
+            "category": "Project - Weekly Reports",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Weekly report on project work.",
+            "dueDate": 1455433140,
+            "graded": true,
+            "name": "#6 Project Report",
+            "points": 8,
+            "type": "Exam",
+            "url": "EiUs",
+            "weight": 1.5
+          },
+          {
+            "id": "4N-sjTq5GSwd",
+            "categoryID": "b7zt9jxXPRLu",
+            "category": "Project - Weekly Reports",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Weekly report on project work.",
+            "dueDate": 1457247540,
+            "graded": true,
+            "name": "#9 Project Report",
+            "points": 8,
+            "type": "Exam",
+            "url": "RsYP",
+            "weight": 1.5
+          },
+          {
+            "id": "4PAIWxs_XO29",
+            "categoryID": "b7zt9jxXPRLu",
+            "category": "Project - Weekly Reports",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Weekly report on project work.",
+            "dueDate": 1454223540,
+            "graded": true,
+            "name": "#3 Project Report",
+            "points": 8,
+            "type": "Exam",
+            "url": "jx2t",
+            "weight": 1.5
+          },
+          {
+            "id": "5Mdq5BpkxaXN",
+            "categoryID": "b7zt9jxXPRLu",
+            "category": "Project - Weekly Reports",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Weekly report on project work.",
+            "dueDate": 1457852340,
+            "graded": true,
+            "name": "#10 Project Report",
+            "points": 8,
+            "type": "Exam",
+            "url": "O77E",
+            "weight": 1.5
+          },
+          {
+            "id": "Fe641bnHWd8p",
+            "categoryID": "b7zt9jxXPRLu",
+            "category": "Project - Weekly Reports",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Weekly report on project work.",
+            "dueDate": 1454828340,
+            "graded": true,
+            "name": "#5 Project Report",
+            "points": 8,
+            "type": "Exam",
+            "url": "z8fS",
+            "weight": 1.5
+          },
+          {
+            "id": "IuIyc7z3Rmoz",
+            "categoryID": "b7zt9jxXPRLu",
+            "category": "Project - Weekly Reports",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Weekly report on project work.",
+            "dueDate": 1456642740,
+            "graded": true,
+            "name": "#8 Project Report",
+            "points": 8,
+            "type": "Exam",
+            "url": "b6nv",
+            "weight": 1.5
+          },
+          {
+            "id": "P1gsflHKAfK_",
+            "categoryID": "b7zt9jxXPRLu",
+            "category": "Project - Weekly Reports",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Weekly report on project work.",
+            "dueDate": 1458453540,
+            "graded": true,
+            "name": "#11 Project Report",
+            "points": 8,
+            "type": "Exam",
+            "url": "DS4g",
+            "weight": 1.5
+          },
+          {
+            "id": "VKMSpZWCXhhJ",
+            "categoryID": "b7zt9jxXPRLu",
+            "category": "Project - Weekly Reports",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Weekly report on project work.",
+            "dueDate": 1456037940,
+            "graded": true,
+            "name": "#7 Project Report",
+            "points": 8,
+            "type": "Exam",
+            "url": "GZ6r",
+            "weight": 1.5
+          },
+          {
+            "id": "XgFSfQbRbj1E",
+            "categoryID": "b7zt9jxXPRLu",
+            "category": "Project - Weekly Reports",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Weekly report on project work.",
+            "dueDate": 1460267940,
+            "graded": true,
+            "name": "#14 Project Report",
+            "points": 8,
+            "type": "Exam",
+            "url": "PXzo",
+            "weight": 1.5
+          },
+          {
+            "id": "_wT87tRsoZKB",
+            "categoryID": "b7zt9jxXPRLu",
+            "category": "Project - Weekly Reports",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Weekly report on project work.",
+            "dueDate": 1454223540,
+            "graded": true,
+            "name": "#4 Project Report",
+            "points": 8,
+            "type": "Exam",
+            "url": "nA0p",
+            "weight": 1.5
+          },
+          {
+            "id": "jaZxqj2fpGel",
+            "categoryID": "b7zt9jxXPRLu",
+            "category": "Project - Weekly Reports",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Weekly report on project work.",
+            "dueDate": 1459058340,
+            "graded": true,
+            "name": "#12 Project Report",
+            "points": 8,
+            "type": "Exam",
+            "url": "Mf75",
+            "weight": 1.5
+          },
+          {
+            "id": "k4smTZtzFriJ",
+            "categoryID": "b7zt9jxXPRLu",
+            "category": "Project - Weekly Reports",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Weekly report on project work.",
+            "dueDate": 1453618740,
+            "graded": true,
+            "name": "#3 Project Report",
+            "points": 8,
+            "type": "Exam",
+            "url": "i5Jr",
+            "weight": 1.5
+          },
+          {
+            "id": "pt-GCSxr1VaK",
+            "categoryID": "b7zt9jxXPRLu",
+            "category": "Project - Weekly Reports",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Weekly report on project work.",
+            "dueDate": 1459663140,
+            "graded": true,
+            "name": "#13 Project Report",
+            "points": 8,
+            "type": "Exam",
+            "url": "125B",
+            "weight": 1.5
+          },
+          {
+            "id": "sBcyjGCYr4C0",
+            "categoryID": "b7zt9jxXPRLu",
+            "category": "Project - Weekly Reports",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Weekly report on project work.",
+            "dueDate": 1453013940,
+            "graded": true,
+            "name": "#2 Project Report",
+            "points": 8,
+            "type": "Exam",
+            "url": "okzi",
+            "weight": 1.5
+          },
+          {
+            "id": "MHCF3raG605R",
+            "categoryID": "WEqh0tGDeaCR",
+            "category": "Midterm Exam",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Midterm",
+            "dueDate": 1456974000,
+            "graded": true,
+            "name": "Midterm",
+            "points": 100,
+            "type": "ExamOther",
+            "url": "PKaf",
+            "weight": 17
+          },
+          {
+            "id": "OitaxLEHuv0i",
+            "categoryID": "MHDwlFKDHEaA",
+            "category": "Project - Team Deliverables",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Report completion of code review.",
+            "dueDate": 1458453540,
+            "graded": true,
+            "name": "#7 Team Deliverable: Code Review Performed",
+            "points": 100,
+            "type": "Exam",
+            "url": "aR_D",
+            "weight": 2
+          },
+          {
+            "id": "RbelprM5VycJ",
+            "categoryID": "zWhmWArcY4JR",
+            "category": "Final Exam",
+            "courseID": "5wyigGxZA8uJ",
+            "description": "Final\n",
+            "dueDate": 1460505600,
+            "graded": true,
+            "name": "Final",
+            "points": 100,
+            "type": "ExamOther",
+            "url": "HL2j",
+            "weight": 17
+          }
+        ]
+      },
+      {
+        "id": "g0_J6J0Psrf3",
+        "title": "Intro to User Interface Softwr",
+        "shortTitle": "C S 456",
+        "assignments": [
+          {
+            "id": "0lwiYZ7VVS8D",
+            "categoryID": "ofGMHqrlI8Oc",
+            "category": "Android Group Project",
+            "courseID": "g0_J6J0Psrf3",
+            "description": "<p>Evaluate your second prototype. &nbsp;This prototype should look like your visual design. &nbsp;The functionality should be very refined as well. &nbsp;As before, the purpose of this prototype is to facilitate a conversation with users. &nbsp;But we expect that these conversations will lead to functional and visual refinements that are more evolutionary and less drastic than before. &nbsp;&nbsp;</p>\n",
+            "dueDate": 1459835940,
+            "graded": true,
+            "name": "Functional prototype eval 2",
+            "points": 100,
+            "type": "assignment",
+            "url": "AklE",
+            "weight": 25
+          },
+          {
+            "id": "CtsQMfPL9teY",
+            "categoryID": "ofGMHqrlI8Oc",
+            "category": "Android Group Project",
+            "courseID": "g0_J6J0Psrf3",
+            "description": "<p>Build a functional prototype of your app. &nbsp;Test it with&nbsp;<span class=\"math-tex\">\\(n \\geq x+1\\)</span>peple where&nbsp;<span class=\"math-tex\">\\(x\\)</span>is the number of people in your group. &nbsp;A few things to keep in mind:&nbsp;</p>\n\n<ul>\n\t<li>While visual appearance matters, it&#39;s not the focus of this round of testing. &nbsp;Make something that looks like your visual mockups, but focus on functionality. &nbsp;You need to spend hours locking in the visual design yet because you&#39;ll make major changes in fuctionality after this round of testing. &nbsp;You need to be willing to completely throw away this prototype if needed.&nbsp;</li>\n\t<li>The purpose of this prototype and testing is to engage your users in a conversation. &nbsp;The prototype itself is not the objective, it&#39;s just a tool for facilitating conversations with people.&nbsp;</li>\n\t<li>The next prototype will focus more on baking the visual design into the prototype.</li>\n</ul>\n\n<p>Grading:&nbsp;</p>\n\n<ul>\n\t<li>Methods. &nbsp;Did you build and test a prototype with people? &nbsp;10%</li>\n\t<li>Learning. &nbsp;What did you learn in testing this prototype with people? 50%&nbsp;</li>\n\t<li>Prototype. &nbsp;Did the prototype contain enough functionality to facilitate productive conversations with users? &nbsp;30%&nbsp;</li>\n\t<li>Presentation. &nbsp;Did your presentation communicate what you did and what you learned? &nbsp;Did your group participate in the discussion? 10%</li>\n</ul>\n",
+            "dueDate": 1458626340,
+            "graded": true,
+            "name": "Functional prototype eval 1",
+            "points": 100,
+            "type": "assignment",
+            "url": "XM_x",
+            "weight": 25
+          },
+          {
+            "id": "HhCVqKTAxje8",
+            "categoryID": "ofGMHqrlI8Oc",
+            "category": "Android Group Project",
+            "courseID": "g0_J6J0Psrf3",
+            "description": "<p>You&#39;ve made and iterated through a paper prototype. &nbsp;Now we&#39;d like to see visual design mockups with color. &nbsp;This is not a functional mockup, this is a mockup that captures appearance in detail. &nbsp;You&#39;ll probably use something like photoshop or a similar tool to make high fidelity renderings of what your app will look like. &nbsp; Make mockups for 3 (or something close to 3) screens of your app. &nbsp;This will help us get an idea for the look and feel.&nbsp;</p>\n\n<p>You&#39;ll present your visual mockups in class, we&#39;ll discuss and critique them. &nbsp;Bring your mockups printed on paper in color. &nbsp;I have a color printer in my office we &nbsp;can use for this if that&#39;s an issue but I&#39;ll need a pdf to print before 11:45 on Monday. &nbsp;</p>\n\n<p>The next step is to evaluate a pair of functional prototypes. &nbsp;In the first one we&#39;ll focus on functionality but it should kind of look like the color mockup. &nbsp;The second prototype should look exactly like the color mockup (allowing for changes as needed based on your conversations with users).&nbsp;</p>\n\n<p>Grading:&nbsp;</p>\n\n<ul>\n\t<li>Aesthetics. &nbsp;Does your design follow android material design guidelines? &nbsp;40%</li>\n\t<li>Justification. &nbsp;To what extent did you incorporate the insights you gained in your paper prototype studies? 30%&nbsp;</li>\n\t<li>Craft. &nbsp;Are the mockups well crafted? Do they look polished and refined or do they look quickly thrown together? 15%</li>\n\t<li>Completeness. &nbsp;Can we get an overall impression about your visual design from your mockups? &nbsp;You don&#39;t need to mockup every screen, but there should be enough to communicate the design. &nbsp;10%&nbsp;</li>\n\t<li>Group effort. &nbsp;Does this look like a group effort and did the group participate in the discussion? 5%&nbsp;</li>\n</ul>\n\n<p>&nbsp;</p>\n",
+            "dueDate": 1457420340,
+            "graded": true,
+            "name": "Color Mockup presentations",
+            "points": 100,
+            "type": "assignment",
+            "url": "8fY9",
+            "weight": 25
+          },
+          {
+            "id": "Iac-WP6w7AED",
+            "categoryID": "7stSripxpnR6",
+            "category": "Exams",
+            "courseID": "g0_J6J0Psrf3",
+            "description": "<p>Saturday April 16 from 230 to 530 pm in class.&nbsp;</p>\n",
+            "dueDate": 1460838600,
+            "graded": true,
+            "name": "Final exam",
+            "points": 100,
+            "type": "assignment",
+            "url": "0pda",
+            "weight": 25
+          },
+          {
+            "id": "IqaqAHDgDEiV",
+            "categoryID": "ofGMHqrlI8Oc",
+            "category": "Android Group Project",
+            "courseID": "g0_J6J0Psrf3",
+            "description": "<p>Build a paper prototype for your app, test it with 2n+x users where n = number of people in your group and x is an integer greater than or equal to 0. &nbsp;</p>\n\n<p>Refine your prototype as you go. &nbsp;That is, don&#39;t use the same prototype for the entire study. &nbsp;</p>\n\n<p>Come to class today prepared to present what you did in your study and what you learned from the study.&nbsp;</p>\n",
+            "dueDate": 1456815540,
+            "graded": true,
+            "name": "Paper Prototypes Study",
+            "points": 100,
+            "type": "assignment",
+            "url": "zS4F",
+            "weight": 25
+          },
+          {
+            "id": "MyTm_suti6M-",
+            "categoryID": "7stSripxpnR6",
+            "category": "Exams",
+            "courseID": "g0_J6J0Psrf3",
+            "description": "<p>We will have an in-class midterm on Monday Feb 22. &nbsp;Closed books, but you may bring one page of notes. &nbsp;It will be due at the end of class. &nbsp;The exam will focus on the first 4 chapters of the book. &nbsp;There&#39;s quite a bit in there. &nbsp;Here&#39;s what to focus on. &nbsp;Questions will cover a proper subset of these topics.&nbsp;</p>\n\n<ol>\n\t<li>The texbook we use is called &quot;Interaction Design&quot; &nbsp;What does &quot;interaction design&quot; mean?&nbsp;</li>\n\t<li>There&#39;s quite a bit of content in chapter 1. &nbsp;I&#39;m most interested in you knowing the design principles in section 1.6.3&nbsp;</li>\n\t<li>From chapter 2: &nbsp;Be familiar with assumptions and claims as used in that chapter. &nbsp;Also look at interaction types (section 2.5).&nbsp;</li>\n\t<li>Chapter 3 is about cognition. &nbsp;I don&#39;t expect that you or I are going to be experts in cognition at this point (or maybe ever). &nbsp;We are concerned with how cognition applies to interaction design. &nbsp;Be ready to define cognition and study up on the human memory system. &nbsp;</li>\n\t<li>Chapter 4. &nbsp;The key point of chapter 4 is that interactive computing changes social interaction. &nbsp;Study up on remote conversations, tele-presence and co-presence. &nbsp;</li>\n</ol>\n\n<p>There&#39;s a question that asks you to think about immersive virtual reality using immersive head mounted displays. &nbsp;You can answer the question perfectly without being an expert in either or both of those topics, but you might be more comfortable with the question if you spend some time reading about them before hand. &nbsp;The wikipedia articles are pretty good. &nbsp;</p>\n",
+            "dueDate": 1456210740,
+            "graded": true,
+            "name": "Midterm",
+            "points": 86,
+            "type": "assignment",
+            "url": "XlM1",
+            "weight": 25
+          },
+          {
+            "id": "XzPkxl1PK2H2",
+            "categoryID": "okbMCdpX4kmI",
+            "category": "Android Individual Projects",
+            "courseID": "g0_J6J0Psrf3",
+            "description": "<p>Write an app in android that allows a person to take a picture. &nbsp;Implement pinch and zoom, and drag to pan on the image. &nbsp;Turn in a few screenshots to demonstrate that your app works. &nbsp;On learning suite. &nbsp;You can put multiple images in a document of some variety (I&#39;m thinking word) and upload that. &nbsp;No zip files. &nbsp;Pdfs are great. &nbsp;Postscript probably not. &nbsp;No latex. &nbsp;</p>\n\n<p>Scoring:&nbsp;</p>\n\n<p>Base functionality: &nbsp;85 points.&nbsp;</p>\n\n<p>Overlay something on the image: + 5&nbsp;</p>\n\n<p>The overlay correctly moves when the image pans: +5&nbsp;</p>\n\n<p>The overlay correctly moves with both pans and zooms: + 10</p>\n\n<p>Something else cool: +1 to 15</p>\n",
+            "dueDate": 1453532340,
+            "graded": true,
+            "name": "Pinch and zoom",
+            "points": 100,
+            "type": "assignment",
+            "url": "Yn48",
+            "weight": 25
+          },
+          {
+            "id": "aMp4FW3KXUDf",
+            "categoryID": "okbMCdpX4kmI",
+            "category": "Android Individual Projects",
+            "courseID": "g0_J6J0Psrf3",
+            "description": "<p>Using the firebase API, implement a twitter client that allows for creating tweets and seeing a feed of tweets. &nbsp;We&#39;ll share a common firebase database so that everyone sees everyone else&#39;s tweets. &nbsp;</p>\n\n<p>Turn in 1-2 pages of text and screen shots to demonstrate that your app works. &nbsp;Highlight what you did to earn points.&nbsp;</p>\n\n<p>The shared back end for the project is at https://luminous-torch-6850.firebaseio.com/chatty &nbsp; If you&#39;d like to be added as a collaborator to this backend, send me a gmail address. &nbsp;Being a collaborator will allow you to see the data from the console view in a browser. &nbsp;That can be handy.&nbsp;</p>\n\n<p>Basic twitter clone (live updates with new messages in some kind of live updating view, each message contains at least a message body with some text in it, the ability to send a message, the message format has a key/value pair per field see below to see the key list, the message should not be written as a json string.): &nbsp;85 points.&nbsp;</p>\n\n<p>Add the ability to record the phone&#39;s lat/long to the tweet so that you know where the phone was when the tweet was created. &nbsp;+ 5&nbsp;</p>\n\n<p>Add a map view which shows a marker at every position from which someone tweeted. &nbsp;+10&nbsp;</p>\n\n<p>When the user clicks on a marker the user sees the tweet created at that location +5&nbsp;</p>\n\n<p>Only show n most recent messages +5&nbsp;</p>\n\n<p>Support deleting a message + 5&nbsp;</p>\n\n<p>Allow messages to be sent in reply to other messages and display the chain of who replied to what (to at least one level of replies) +12</p>\n\n<p>Other improvements or extensions I haven&#39;t thought of +1 to +15</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:18px;\">Canonical key names:&nbsp;</span></p>\n\n<pre style=\"font-family: 'Courier New'; font-size: 9pt; background-color: rgb(255, 255, 255);\">\n<span style=\"color:#000080;font-weight:bold;\">public static </span>String <span style=\"color:#660e7a;font-style:italic;\">messageKey </span>= <span style=\"color:#008000;font-weight:bold;\">&quot;message&quot;</span>;\n<span style=\"color:#000080;font-weight:bold;\">public static </span>String <span style=\"color:#660e7a;font-style:italic;\">inReplyToKey </span>= <span style=\"color:#008000;font-weight:bold;\">&quot;inReplyTo&quot;</span>;\n<span style=\"color:#000080;font-weight:bold;\">public static </span>String <span style=\"color:#660e7a;font-style:italic;\">senderKey </span>= <span style=\"color:#008000;font-weight:bold;\">&quot;sender&quot;</span>;\n<span style=\"color:#000080;font-weight:bold;\">public static </span>String <span style=\"color:#660e7a;font-style:italic;\">timeStampKey </span>= <span style=\"color:#008000;font-weight:bold;\">&quot;timeStamp&quot;</span>;\n</pre>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+            "dueDate": 1454396340,
+            "graded": true,
+            "name": "Twitter clone",
+            "points": 100,
+            "type": "assignment",
+            "url": "3rse",
+            "weight": 35
+          },
+          {
+            "id": "lzdDSST3qJLL",
+            "categoryID": "ofGMHqrlI8Oc",
+            "category": "Android Group Project",
+            "courseID": "g0_J6J0Psrf3",
+            "description": "<p>Make a storyboard for your problem. &nbsp;Remember setting, conflict and resolution. &nbsp;Turn in via learning suite. &nbsp;Only one person per team needs to turn something in. &nbsp; Turn in before class (I added this late, we&#39;ll be flexible, but turn it in before class if you can).&nbsp;</p>\n",
+            "dueDate": 1455692340,
+            "graded": true,
+            "name": "storyboards",
+            "points": 100,
+            "type": "assignment",
+            "url": "e9fk",
+            "weight": 25
+          },
+          {
+            "id": "qMBbd7_hRIHf",
+            "categoryID": "okbMCdpX4kmI",
+            "category": "Android Individual Projects",
+            "courseID": "g0_J6J0Psrf3",
+            "description": "<p><a href=\"http://developer.android.com/training/basics/firstapp/index.html\">Build your first app</a>&nbsp;(which will be the app described at the link). &nbsp;Turn in a few screenshots that demonstrate that your app works. &nbsp;Turn your screenshots in in a word doc, pdf doc or other document that can be previewed in learning suite.&nbsp;</p>\n",
+            "dueDate": 1452322740,
+            "graded": true,
+            "name": "Hello World",
+            "points": 100,
+            "type": "assignment",
+            "url": "W9fD",
+            "weight": 10
+          },
+          {
+            "id": "uo47Bz6HKg4q",
+            "categoryID": "ofGMHqrlI8Oc",
+            "category": "Android Group Project",
+            "courseID": "g0_J6J0Psrf3",
+            "description": "<p>What problem (do you currently think) you are going to solve?</p>\n",
+            "dueDate": 1455001140,
+            "graded": true,
+            "name": "Problem Statements",
+            "points": 100,
+            "type": "assignment",
+            "url": "kjyX",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "id": "fMk8G_KoOvoH",
+        "title": "Ethics + Computers in Society",
+        "shortTitle": "C S 404",
+        "assignments": [
+          {
+            "id": "5wPPB9pIXFQb",
+            "categoryID": "DBxqp5t6I-Sq",
+            "category": "Blog Posts",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "<p>Compose a 10-15 line response to a topic discussed in the present module using a current (up to date) event. This is intended to showcase your ability to relate topics discussed in class to events taking place now.&nbsp;</p>\n",
+            "dueDate": 1459490340,
+            "graded": true,
+            "name": "Current Event Post 4",
+            "points": 15,
+            "type": "assignment",
+            "url": "c9XG",
+            "weight": 30
+          },
+          {
+            "id": "8kgrNkZO89mh",
+            "categoryID": "DBxqp5t6I-Sq",
+            "category": "Blog Posts",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "",
+            "dueDate": 1459663140,
+            "graded": true,
+            "name": "Current Event Comment 4",
+            "points": 5,
+            "type": "assignment",
+            "url": "wV_W",
+            "weight": 10
+          },
+          {
+            "id": "U2fYdtWaHH69",
+            "categoryID": "DBxqp5t6I-Sq",
+            "category": "Blog Posts",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "<p>Compose a 10-15 line response to a topic discussed in the present module using a current (up to date) event. This is intended to showcase your ability to relate topics discussed in class to events taking place now.&nbsp;</p>\n",
+            "dueDate": 1458280740,
+            "graded": true,
+            "name": "Current Event Post 3",
+            "points": 15,
+            "type": "assignment",
+            "url": "-dw3",
+            "weight": 30
+          },
+          {
+            "id": "ZIr8zsGyHJZ0",
+            "categoryID": "DBxqp5t6I-Sq",
+            "category": "Blog Posts",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "",
+            "dueDate": 1458453540,
+            "graded": true,
+            "name": "Current Event Comment 3",
+            "points": 5,
+            "type": "assignment",
+            "url": "56Pz",
+            "weight": 10
+          },
+          {
+            "id": "lVxsIjHyn1Iu",
+            "categoryID": "DBxqp5t6I-Sq",
+            "category": "Blog Posts",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "",
+            "dueDate": 1456469940,
+            "graded": true,
+            "name": "Current Event Comment 2",
+            "points": 5,
+            "type": "assignment",
+            "url": "OSZV",
+            "weight": 10
+          },
+          {
+            "id": "n4nQ46QYYmzi",
+            "categoryID": "DBxqp5t6I-Sq",
+            "category": "Blog Posts",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "<p>Compose a 10-15 line response to a topic discussed in the present module using a current (up to date) event. This is intended to showcase your ability to relate topics discussed in class to events taking place now.&nbsp;</p>\n",
+            "dueDate": 1456297140,
+            "graded": true,
+            "name": "Current Event Post 2",
+            "points": 15,
+            "type": "assignment",
+            "url": "ef9S",
+            "weight": 30
+          },
+          {
+            "id": "nvKH4tdkJsgh",
+            "categoryID": "DBxqp5t6I-Sq",
+            "category": "Blog Posts",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "<p>Comment on classmate blog post.</p>\n",
+            "dueDate": 1454482740,
+            "graded": true,
+            "name": "Current Event Comment 1",
+            "points": 5,
+            "type": "assignment",
+            "url": "gLOu",
+            "weight": 10
+          },
+          {
+            "id": "rqMUxPwMajXO",
+            "categoryID": "DBxqp5t6I-Sq",
+            "category": "Blog Posts",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "<p>Compose a 10-15 line response to a topic discussed in the present module using a current (up to date) event. This is intended to showcase your ability to relate topics discussed in class to events taking place now.&nbsp;</p>\n",
+            "dueDate": 1454050740,
+            "graded": true,
+            "name": "Current Event Post 1",
+            "points": 15,
+            "type": "assignment",
+            "url": "359l",
+            "weight": 30
+          },
+          {
+            "id": "GjupJrQGmrkd",
+            "categoryID": "Qv83BTEpfe6X",
+            "category": "Extra Credit",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "",
+            "dueDate": 1458655200,
+            "graded": true,
+            "name": "Extra Credit Project",
+            "points": 15,
+            "type": "assignment",
+            "url": "GNU7",
+            "weight": 25
+          },
+          {
+            "id": "ICtZCYyE0vFu",
+            "categoryID": "W1edKdoUfs4w",
+            "category": "Reading",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "<p>The compilation of all reading checks from each class period.</p>\n",
+            "dueDate": 1460527140,
+            "graded": true,
+            "name": "Daily Intake",
+            "points": 32,
+            "type": "assignment",
+            "url": "vK3y",
+            "weight": 20
+          },
+          {
+            "id": "-j2u7RmP3KOD",
+            "categoryID": "bjpq-4Uq2a87",
+            "category": "Quizzes",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "Module Quiz",
+            "dueDate": 1456848900,
+            "graded": true,
+            "name": "Module Quiz 3",
+            "points": 12,
+            "type": "ExamOther",
+            "url": "BlK5",
+            "weight": 25
+          },
+          {
+            "id": "2ydp5eLp2YU-",
+            "categoryID": "bjpq-4Uq2a87",
+            "category": "Quizzes",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "Module Quiz",
+            "dueDate": 1457626500,
+            "graded": true,
+            "name": "Module Quiz 4",
+            "points": 12,
+            "type": "ExamOther",
+            "url": "Delo",
+            "weight": 25
+          },
+          {
+            "id": "KRx4NEIh_TrZ",
+            "categoryID": "bjpq-4Uq2a87",
+            "category": "Quizzes",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "Module Quiz",
+            "dueDate": 1454602500,
+            "graded": true,
+            "name": "Module Quiz 2",
+            "points": 12,
+            "type": "ExamOther",
+            "url": "wW2H",
+            "weight": 25
+          },
+          {
+            "id": "PO4SoIB-SlX7",
+            "categoryID": "bjpq-4Uq2a87",
+            "category": "Quizzes",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "Module Quiz",
+            "dueDate": 1458832500,
+            "graded": true,
+            "name": "Module Quiz 5",
+            "points": 12,
+            "type": "ExamOther",
+            "url": "Yfzd",
+            "weight": 25
+          },
+          {
+            "id": "Q7JY2fnPVjfU",
+            "categoryID": "bjpq-4Uq2a87",
+            "category": "Quizzes",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "Module Quiz",
+            "dueDate": 1460474100,
+            "graded": true,
+            "name": "Module Quiz 6",
+            "points": 12,
+            "type": "ExamOther",
+            "url": "NVOI",
+            "weight": 25
+          },
+          {
+            "id": "usaF27kmm5S4",
+            "categoryID": "bjpq-4Uq2a87",
+            "category": "Quizzes",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "Module Quiz",
+            "dueDate": 1453392900,
+            "graded": true,
+            "name": "Module Quiz 1",
+            "points": 12,
+            "type": "ExamOther",
+            "url": "Lxmm",
+            "weight": 25
+          },
+          {
+            "id": "0BV7k-odJOdr",
+            "categoryID": "pInMCGbrAhCV",
+            "category": "Administrative",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "",
+            "dueDate": 1460527140,
+            "graded": true,
+            "name": "Evidence of Learning Survey #2",
+            "points": 15,
+            "type": "assignment",
+            "url": "aQTF",
+            "weight": 10
+          },
+          {
+            "id": "GCmtTfix2qB0",
+            "categoryID": "pInMCGbrAhCV",
+            "category": "Administrative",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "",
+            "dueDate": 1452927540,
+            "graded": true,
+            "name": "Evidence of Learning Survey #1",
+            "points": 15,
+            "type": "assignment",
+            "url": "x1ir",
+            "weight": 10
+          },
+          {
+            "id": "-VoFzcKL6fWS",
+            "categoryID": "pTlESm0wi6ej",
+            "category": "Projects",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "<p>This is your final project. See the rubric for further details.&nbsp;</p>\n",
+            "dueDate": 1460037600,
+            "graded": true,
+            "name": "Application of Ethics Semester Project",
+            "points": 100,
+            "type": "assignment",
+            "url": "tVbf",
+            "weight": 50
+          },
+          {
+            "id": "la0YSrGIFJnl",
+            "categoryID": "pTlESm0wi6ej",
+            "category": "Projects",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "<p>See Rubric for Details - This will be updated.&nbsp;</p>\n\n<p>This assignment is due at the start of class. That means 8:00 am. It is due as a hard copy (printed).&nbsp;</p>\n",
+            "dueDate": 1457017200,
+            "graded": true,
+            "name": "Analysis Paper 2",
+            "points": 25,
+            "type": "assignment",
+            "url": "jgAB",
+            "weight": 25
+          },
+          {
+            "id": "oJiVZdtm2O3T",
+            "categoryID": "pTlESm0wi6ej",
+            "category": "Projects",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "<p>See rubric for details on this assignment.&nbsp;</p>\n\n<p>For this particular assignment, as per the instructions given by Professor Dougal today, the deadline has been extended. This assignment is STILL due as a hard copy, but it isn&#39;t due until the end of our office hours. Today, that means 6:00pm, on the mark.&nbsp;</p>\n\n<p>We are not going to wait for you to bring your papers in, so please get there before 6. Thanks.&nbsp;</p>\n",
+            "dueDate": 1455066000,
+            "graded": true,
+            "name": "Analysis Paper 1",
+            "points": 25,
+            "type": "assignment",
+            "url": "0cx_",
+            "weight": 25
+          },
+          {
+            "id": "74HlSj60sIyi",
+            "categoryID": "q_Ohb0q86cCt",
+            "category": "Study Journals",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "<p>Record those things that you found to be important or relevant during this module. Each day of the module should contain at least 3 relevant entries.&nbsp;</p>\n\n<ul>\n\t<li>Submit your journal entry as a single document (MS Word, PDF, text, etc.).&nbsp;</li>\n\t<li>Do not submit a link to your personal blog.&nbsp;</li>\n</ul>\n",
+            "dueDate": 1454655540,
+            "graded": true,
+            "name": "Study Journal 2",
+            "points": 5,
+            "type": "assignment",
+            "url": "IERJ",
+            "weight": 10
+          },
+          {
+            "id": "ASQYrLxmA690",
+            "categoryID": "q_Ohb0q86cCt",
+            "category": "Study Journals",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "<p>Record those things that you found to be important or relevant during this module. Each day of the module should contain at least 3 relevant entries.&nbsp;</p>\n\n<ul>\n\t<li>Submit your journal entry as a single document (MS Word, PDF, text, etc.).&nbsp;</li>\n\t<li>Do not submit a link to your personal blog.&nbsp;</li>\n</ul>\n",
+            "dueDate": 1458107940,
+            "graded": true,
+            "name": "Study Journal 4",
+            "points": 5,
+            "type": "assignment",
+            "url": "A6zz",
+            "weight": 10
+          },
+          {
+            "id": "EsWWH9jn193i",
+            "categoryID": "q_Ohb0q86cCt",
+            "category": "Study Journals",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "<p>Record those things that you found to be important or relevant during this module. Each day of the module should contain at least 3 relevant entries.&nbsp;</p>\n\n<ul>\n\t<li>Submit your journal entry as a single document (MS Word, PDF, text, etc.).&nbsp;</li>\n\t<li>Do not submit a link to your personal blog.&nbsp;</li>\n</ul>\n",
+            "dueDate": 1456469940,
+            "graded": true,
+            "name": "Study Journal 3",
+            "points": 5,
+            "type": "assignment",
+            "url": "eElG",
+            "weight": 10
+          },
+          {
+            "id": "Qq4eu3uQs55z",
+            "categoryID": "q_Ohb0q86cCt",
+            "category": "Study Journals",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "<p>Record those things that you found to be important or relevant during this module. Each day of the module should contain at least 3 relevant entries.&nbsp;</p>\n\n<ul>\n\t<li>Submit your journal entry as a single document (MS Word, PDF, text, etc.).&nbsp;</li>\n\t<li>Do not submit a link to your personal blog.&nbsp;</li>\n</ul>\n",
+            "dueDate": 1453445940,
+            "graded": true,
+            "name": "Study Journal 1",
+            "points": 5,
+            "type": "assignment",
+            "url": "wi_M",
+            "weight": 10
+          },
+          {
+            "id": "pt8nmpxl4py6",
+            "categoryID": "q_Ohb0q86cCt",
+            "category": "Study Journals",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "<p>Record those things that you found to be important or relevant during this module. Each day of the module should contain at least 3 relevant entries.&nbsp;</p>\n\n<ul>\n\t<li>Submit your journal entry as a single document (MS Word, PDF, text, etc.).&nbsp;</li>\n\t<li>Do not submit a link to your personal blog.&nbsp;</li>\n</ul>\n",
+            "dueDate": 1458885540,
+            "graded": true,
+            "name": "Study Journal 5",
+            "points": 5,
+            "type": "assignment",
+            "url": "15qc",
+            "weight": 10
+          },
+          {
+            "id": "TcSi4SUsLnHW",
+            "categoryID": "qa74xYxMt4Qz",
+            "category": "Homework",
+            "courseID": "fMk8G_KoOvoH",
+            "description": "<p>Complete the questions on the handout available for download from Learning Suite.</p>\n\n<p>IMPORTANT:&nbsp; To get credit for this assignment, turn in a printed copy with your answers at the beginning of class on the due date.</p>\n\n<p><span class=\"ck_embededFile\" contenteditable=\"false\"><span class=\"embededFile_Name\">Logical Fallacies Worksheet.pdf</span>&nbsp;&nbsp;<span class=\"embededFile_FileOptions\"><a class=\"embededFile_Download\" href=\"plugins/Upload/fileDownload.php?fileId=c3ae2132-9FQi-wgrd-ph8t-V7934fd59e8e\" target=\"_blank\">Download</a></span></span></p>\n",
+            "dueDate": 1453216500,
+            "graded": true,
+            "name": "Logical Fallacies Worksheet",
+            "points": 20,
+            "type": "assignment",
+            "url": "iZAl",
+            "weight": 30
+          }
+        ]
+      },
+      {
+        "id": "W4dhJEVp9d-c",
+        "title": "Internet Programming",
+        "shortTitle": "C S 360",
+        "assignments": [
+          {
+            "id": "iO0jUw7Dh-8O",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1451977140,
+            "graded": true,
+            "name": "ACT #1 Protocol Stack",
+            "points": 1,
+            "type": "assignment",
+            "url": "EK7k",
+            "weight": 1
+          },
+          {
+            "id": "tLQ9XtAq41Ng",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1452322740,
+            "graded": true,
+            "name": "ACT #2 Command Line",
+            "points": 1,
+            "type": "assignment",
+            "url": "bfRv",
+            "weight": 1
+          },
+          {
+            "id": "w8CU1maYyRlN",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "Questions on TCP/IP\r\nThe quizzes are open book, open notes, open internet",
+            "dueDate": 1452322740,
+            "graded": true,
+            "name": "Quiz #1 TCP/IP",
+            "points": 5,
+            "type": "Exam",
+            "url": "lr7S",
+            "weight": 1
+          },
+          {
+            "id": "L-4a_z6WszPh",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "Sockets\r\nThe quizzes are open book, open notes, open internet",
+            "dueDate": 1452581940,
+            "graded": true,
+            "name": "Quiz #2 Sockets",
+            "points": 7,
+            "type": "Exam",
+            "url": "3Za8",
+            "weight": 1
+          },
+          {
+            "id": "BOjual0kiVIo",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1452754740,
+            "graded": true,
+            "name": "ACT #3 Sockets",
+            "points": 1,
+            "type": "assignment",
+            "url": "Pw3r",
+            "weight": 1
+          },
+          {
+            "id": "wvLsUSvA2rES",
+            "categoryID": "klGPH7MC3H22",
+            "category": "Labs",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">Basic HTML programming expertise is an important skill for Computer Science graduates. &nbsp;</p>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">In creating a web page you can think of the Content Layer as being the basic HTML. &nbsp;The Presentation Layer is the CSS, and the Behavior Layer as the javascript. &nbsp;We wont be dealing with the Behavior layer until late in the class, but this assignment will help you become familiar with the Content Layer and the Presentation Layer.</p>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">Although we will not be teaching a lot of HTML in class, this lab will give everyone a chance to show that they have basic HTML skills.</p>\n\n<ul style=\"margin: 0px 1.5em 1.25em 0px; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; list-style-type: none; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">Create a web-accessible directory for CS360 in your htdocs directory htdocs/CS360</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">Create a mock up for a weather application in your CS360 directory with at least the following.\n\t<ul style=\"margin: 0px 1.5em 1.25em 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style-type: none;\">\n\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">Your name</li>\n\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">Your resume (include web programming experience)</li>\n\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">A link to a page with the current weather (you can make this up for now)</li>\n\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">A link to a page with the weather forecast (you can make this up for now)</li>\n\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">You should make the pages look good. You should use&nbsp;<a href=\"http://www.w3schools.com/css/default.asp\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255);\">CSS</a>&nbsp;to create a&nbsp;consistent&nbsp;look and feel.</li>\n\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">Link to at least two other pages that have the same CSS look and feel.</li>\n\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">Your page should have at least the following:\n\t\t<ul>\n\t\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">Hyperlinks, images, pre, lists, a form (the form wont have any actions) and a table</li>\n\t\t</ul>\n\t\t</li>\n\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">\n\t\t<h3 style=\"margin: 0px 0px 0.6em; padding: 0px; border: 0px; font-style: inherit; font-size: 16px; font-family: inherit; vertical-align: baseline; color: rgb(17, 17, 17); line-height: 1;\">Resources</h3>\n\n\t\t<h3 style=\"margin: 0px 0px 0.6em; padding: 0px; border: 0px; font-style: inherit; font-size: 16px; font-family: inherit; vertical-align: baseline; color: rgb(17, 17, 17); line-height: 1;\">In Class Example</h3>\n\n\t\t<hr style=\"color: rgb(221, 221, 221); clear: both; float: none; width: 580px; height: 0.1em; margin: 0px 0px 1.45em; border: none; background: rgb(221, 221, 221);\" />\n\t\t<ul style=\"margin: 0px 1.5em 1.25em 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style-type: none;\">\n\t\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\"><a href=\"http://www.w3schools.com/tags/default.asp\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255);\">HTML/XHTML Reference</a></li>\n\t\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\"><a href=\"http://www.w3schools.com/cssref/\">CSS Reference</a></li>\n\t\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\"><a href=\"http://www.csstutorial.net/\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255);\">CSS Tutorial</a></li>\n\t\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\"><a href=\"http://alistapart.com/topics/design/layout/\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255);\">A List Apart</a></li>\n\t\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\"><a href=\"http://www.csszengarden.com/\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255);\">An example of one page displayed using several different style sheets</a></li>\n\t\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\"><a href=\"http://faculty.cs.byu.edu/~clement/CS360/weather.html\">HTML page</a></li>\n\t\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\"><a href=\"http://faculty.cs.byu.edu/~clement/CS360/assignments/css/banner.jpg\">Banner image</a></li>\n\t\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\"><a href=\"http://faculty.cs.byu.edu/~clement/CS360/assignments/css/360.css\">Style Sheet</a></li>\n\t\t</ul>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">&nbsp;\n\t<ul style=\"margin: 0px 1.5em 1.25em 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style-type: none;\">\n\t\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">\n\t\t<h3 style=\"margin: 0px 0px 0.6em; padding: 0px; border: 0px; font-style: inherit; font-size: 16px; font-family: inherit; vertical-align: baseline; color: rgb(17, 17, 17); line-height: 1;\"><span style=\"font-family: inherit; font-style: inherit; line-height: 1; font-weight: inherit; background-color: transparent;\">Passoff</span></h3>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">\n\t<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">Submit the URL for your web page in the learningsuite submission. &nbsp;Also submit through this <a href=\"https://docs.google.com/spreadsheets/d/1jpi9nvMs_4QUlPipJPidO01g7iw_tByg3jO2Iwdme1Y/edit?usp=sharing\">spreadsheet</a>. &nbsp;This information will allow us to give you feedback from other class members.</p>\n\n\t<form action=\"http://dna.cs.byu.edu/CS360/studentpages/writenew.cgi\" enctype=\"application/x-www-form-urlencoded\" method=\"post\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">\n\t<h2><span style=\"font-size:12px;\"><span style=\"color:#000000;\">We will be using this </span><a href=\"https://docs.google.com/forms/d/1aGTIVIRwuxpHDJG-JdJvhK7K99VByElOTMj8giLnJ-s/viewform\"><span style=\"color:#000000;\">form</span></a><span style=\"color:#000000;\"> to grade the lab.&nbsp;</span></span></h2>\n\n\t<p>&nbsp;</p>\n\n\t<table>\n\t\t<tbody>\n\t\t\t<tr>\n\t\t\t\t<th>Passoff Level</th>\n\t\t\t\t<th>Behavior</th>\n\t\t\t\t<th>Points</th>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>Minimal Passoff</td>\n\t\t\t\t<td>Create a class web page.</td>\n\t\t\t\t<td>70%</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>Basic Passoff</td>\n\t\t\t\t<td>Create the class web page using CSS.</td>\n\t\t\t\t<td>85%</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>Perfect Passoff</td>\n\t\t\t\t<td>Make your web site look really good. It should wow the user and should resize for small screens.</td>\n\t\t\t\t<td>100%</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n\t</form>\n\t</li>\n</ul>\n",
+            "dueDate": 1452754740,
+            "graded": true,
+            "name": "Lab #0 Weather Page",
+            "points": 100,
+            "type": "assignment",
+            "url": "cxnV",
+            "weight": 10
+          },
+          {
+            "id": "A5n98ZbFEIMt",
+            "categoryID": "klGPH7MC3H22",
+            "category": "Labs",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<h3 style=\"margin: 0px 0px 0.6em; padding: 0px; border: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(17, 17, 17); line-height: 1; background-color: rgb(255, 255, 255);\">Overview</h3>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">The goals of this assignment are (1) to learn how to write a client&nbsp;application using the BSD socket API, (2) to understand how to process&nbsp;and parse data when reading from a network socket, and (3) to&nbsp;understand the basics of the HTTP protocol.</p>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">In this assignment, you will write a simple web client in C++ that&nbsp;can download a web page from a web server. This will help you to&nbsp;understand the BSD socket API from the perspective of the client and&nbsp;give you a basic understanding of HTTP.</p>\n\n<h3 style=\"margin: 0px 0px 0.6em; padding: 0px; border: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(17, 17, 17); line-height: 1; background-color: rgb(255, 255, 255);\">Basic Web Client</h3>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">Your web client will accept a host name, port, and a URL&nbsp;on the command line. The client will use DNS to convert the&nbsp;host name into an IP address, then connect to the specified web server&nbsp;using the IP address and port. Once connected, the client will&nbsp;download the URL listed on the command line, sending an HTTP request and parsing the response for each object. &nbsp;Without any options, you should just display the html content from the URL.</p>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">If the -d flag is present,&nbsp;your web client will also print the HTTP request sent and the HTTP headers from the response received. &nbsp;</p>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\"><span style=\"color: rgb(102, 102, 102); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; background-color: rgb(255, 255, 255);\">If the &quot;-c count&quot; flag is present, then you will repeatedly request the page &quot;count&quot; times, but will not display the html content.</span></p>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">To download a URL, the web client needs to</p>\n\n<ol style=\"margin: 0px 1.5em 1.25em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Send the GET command on the socket &ldquo;GET /path/to/file/index.html HTTP/1.1\\r\\nHost: cs.byu.edu\\r\\n\\r\\n&rdquo;</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Receive an&nbsp;HTTP response, then examine the response for the Content-Length&nbsp;header. The value of this header indicates how many bytes to read to&nbsp;receive the object, given in the entity body of the HTTP message.&nbsp;Thus each time the client downloads an object, it first reads until it&nbsp;receives a sentinel (&rdquo;\\r\\n\\r\\n&rdquo;), then reads a given&nbsp;<span style=\"font-family: inherit; font-style: inherit; font-weight: inherit;\">number of&nbsp;bytes. &nbsp;Your web client should allocate the number of bytes specified in content_length with malloc and use that to read the body of HTTP message.</span></li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Read the content of the response</li>\n</ol>\n\n<h3 style=\"margin: 0px 0px 0.6em; padding: 0px; border: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(17, 17, 17); line-height: 1; background-color: rgb(255, 255, 255);\">Supplied Code</h3>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">There are a few elements that are really important in successfully parsing HTTP transactions. You ought to look at&nbsp;<a href=\"http://bioresearch.byu.edu/CS360/lab1/sample.txt\">sample.txt</a>&nbsp;(which provides an example of the kind of response you should be expecting) in writing your web client. &nbsp;You can also learn a lot about socket programming by looking at these&nbsp;<a href=\"http://bioresearch.byu.edu/CS360/lab1/sockets/\">code samples</a>&nbsp;(Note: Make sure you know what the sample server and client are doing, because just copying the client code into your lab won&rsquo;t work).</p>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">This code may help you in parsing the headers ... <a href=\"https://students.cs.byu.edu/~masaki/cs360/cs360utils.h\">cs360utils.cpp</a></p>\n\n<h3 style=\"margin: 0px 0px 0.6em; padding: 0px; border: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(17, 17, 17); line-height: 1; background-color: rgb(255, 255, 255);\">Command Line Arguments and Error Checking</h3>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">Your client should be called&nbsp;<em style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">download</em>&nbsp;and must take the&nbsp;following parameters on the command line: (a) a host name, (b) a port&nbsp;number, (c) a URL. Each object is given as an absolute&nbsp;path. For example:</p>\n\n<pre style=\"margin-top: 1.5em; margin-bottom: 1.5em; padding: 0px; border: 0px; font-size: 14px; font-family: 'andale mono', 'lucida console', monospace; vertical-align: baseline; font-stretch: normal; line-height: 21px; overflow: auto; color: rgb(102, 102, 102); background-color: rgb(255, 255, 255);\">\n./download bioresearch.byu.edu 80 /CS360/foo.html</pre>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">If the users does not specify the correct number of arguments, the&nbsp;program should exit gracefully and print an message informing the user&nbsp;about the correct way to call the program. The program should also&nbsp;gracefully exit if the host name or port number is not valid.</p>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">Your program should additionally parse a debugging flag &ldquo;-d&rdquo;, which&nbsp;when activated will print out all communications in either direction between the program and the web server.&nbsp;However, the program should not print debugging lines if the flag is&nbsp;not specified on the command line. In this case, the program should just print out the contents of the web page (in text). I suggest using the&nbsp;<em style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">getopt&nbsp;</em>API for parsing the command line options; see&nbsp;<em style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">man 3 getopt</em>.</p>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\"><span style=\"color: rgb(102, 102, 102); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; background-color: rgb(255, 255, 255);\">Your program should additionally parse a count flag &ldquo;-c&rdquo;, that will download the file a number of times without displaying the content.</span></p>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">You should check for errors for all system calls and exit&nbsp;gracefully if an error occurs, printing out an appropriate error&nbsp;message with&nbsp;<em style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">perror()</em>.</p>\n\n<h3 style=\"margin: 0px 0px 0.6em; padding: 0px; border: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(17, 17, 17); line-height: 1; background-color: rgb(255, 255, 255);\">Passoff</h3>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">Your code should include a makefile that simply by typing &#39;make&#39; will compile the code to be executed. This and all the code should be uploaded in a compressed file via the assignment submission link below.</p>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">Compress your project by doing the following:</p>\n\n<ul>\n\t<li style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">tar cvzf compressed.tar.gz projectDirectory/</li>\n</ul>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">For example, if my project was in a folder called webClient, I would run:</p>\n\n<ul>\n\t<li style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">tar cvzf webClient.tar.gz webClient/</li>\n</ul>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">Make sure that, after decompressing your project, we can simply cd into the directory, run make, and run the executable from this same directory (compile the executable directly into this folder).</p>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">Tests will include</p>\n\n<ul>\n\t<li>./download bioresearch.byu.edu 80 /CS360/foo.html</li>\n\t<li>./download -d bioresearch.byu.edu 80 /CS360/foo.html</li>\n\t<li>./download -c 100 bioresearch.byu.edu 80 /CS360/foo.html</li>\n</ul>\n\n<ul>\n\t<li>./download bioresearch.byu.edu 2000 /foo.html</li>\n\t<li>./download bioresearch.byu.edu 2xyz /foo.html</li>\n\t<li>./download gumfoot.byu.edu 80 /foo.html</li>\n</ul>\n\n<p>The last 3 are errors you should be able to handle.</p>\n\n<p>Submit your source code through learningsuite in a tar file with a makefile. &nbsp;The TAs must be able to type &quot;make&quot; and have your makefile create a &quot;download&quot; binary that they can run through their automated grading script.</p>\n\n<table border=\"1\" cellpadding=\"10\" class=\"passofftable\" style=\"margin: 0px; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: middle; border-collapse: collapse; border-spacing: 0px; width: 663px; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">\n\t<tbody style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t\t<th class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle; background: rgb(94, 178, 229);\">Passoff Level</th>\n\t\t\t<th class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle; background: rgb(94, 178, 229);\">Behavior</th>\n\t\t\t<th class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle; background: rgb(94, 178, 229);\">Points</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Minimal Passoff</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>You can access web pages from a remote server using your client.</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>40%</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Basic Passoff</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>You print out full http headers when the -d flag is present.</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>60%</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Better Passoff</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>You download the file &quot;count&quot; number of times and report the number of successful downloads.</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>80%</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Perflect Passoff</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>You are able to tolerate errors in the command line or servers that dont respond.</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>100%</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>If you wish to receive help with your code, then you should print&nbsp;out clear and concise debugging information when the debugging flag is&nbsp;given on the command line. The more helpful and clear your debugging&nbsp;information is, the better your chances for getting useful help. You&nbsp;should apply this same standard to how you document your code.</p>\n",
+            "dueDate": 1453359540,
+            "graded": true,
+            "name": "Lab #1 Web Client",
+            "points": 100,
+            "type": "assignment",
+            "url": "wNJ7",
+            "weight": 20
+          },
+          {
+            "id": "qmOFwBtKB8Y5",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1453532340,
+            "graded": true,
+            "name": "ACT #4 Files and Directories",
+            "points": 1,
+            "type": "assignment",
+            "url": "viE-",
+            "weight": 1
+          },
+          {
+            "id": "-DBb7mgMppOu",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "Unix System Calls\r\nThe quizzes are open book, open notes, open internet",
+            "dueDate": 1453791540,
+            "graded": true,
+            "name": "Quiz #3 System Calls",
+            "points": 7,
+            "type": "Exam",
+            "url": "kXV3",
+            "weight": 1
+          },
+          {
+            "id": "rvqfg7FqOAbP",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1453791540,
+            "graded": true,
+            "name": "ACT #5 Signals",
+            "points": 1,
+            "type": "assignment",
+            "url": "biq6",
+            "weight": 1
+          },
+          {
+            "id": "TxCZzNQTefxY",
+            "categoryID": "klGPH7MC3H22",
+            "category": "Labs",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<p>In this lab you will write a simple web server. &nbsp;This web server will only serve static files via the GET method. &nbsp;</p>\n\n<p>Your Web server should:</p>\n\n<ul>\n\t<li>Appropriately respond to HTTP 1.1 requests; however, you don&rsquo;t have to accept multiple requests on a single connection</li>\n\t<li>Only the GET method is required for this lab</li>\n\t<li>Function with a variety of web browsers</li>\n\t<li>If the requested URL is a directory, check if an index.html page exists in the directory; if it does, return it, otherwise, output a directory listing (print out http headers and html) with links to each file or directory</li>\n\t<li>If an error occurs or if the file is not found, send back an appropriate error page</li>\n</ul>\n\n<p>Please include a make file that generates an executable called &quot;server&quot;. Your program should run with the following options</p>\n\n<ul>\n\t<li>server &lt;port number&gt; &nbsp;&lt;dir&gt;</li>\n</ul>\n\n<p>where &lt;port number&gt; is the port that the server listens on, and &lt;dir&gt; is the directory that the web server will look in for files to serve. For example, if my program was running on port 50000 and was serving things from /internetStuff I would run:</p>\n\n<ul>\n\t<li>server 50000 /internetStuff</li>\n</ul>\n\n<p>You should respond with the following Content-Type fields for these file extensions.</p>\n\n<ul>\n\t<li>Content-Type: text/html &ndash; for files with the .html suffix</li>\n\t<li>Content-Type: text/plain &ndash; for files with the .txt suffix</li>\n\t<li>Content-Type: image/jpg &ndash; for files with the .jpg suffix</li>\n\t<li>Content-Type: image/gif &ndash; for files with the .gif suffix</li>\n</ul>\n\n<p>Make sure you set the Content-Length header on jpgs and gifs. &nbsp;Otherwise the web browser wont know when to stop reading.</p>\n\n<p>You can test using the following files:</p>\n\n<ul>\n\t<li><a href=\"http://students.cs.byu.edu/~clement/CS360/labs/test1.html\">html file</a></li>\n\t<li><a href=\"http://students.cs.byu.edu/~clement/CS360/labs/test2.txt\">text file</a></li>\n\t<li><a href=\"http://students.cs.byu.edu/~clement/CS360/labs/test3.gif\">gif file</a></li>\n\t<li><a href=\"http://students.cs.byu.edu/~clement/CS360/labs/test4.jpg\">jpg file</a></li>\n</ul>\n\n<p>You should be able to request a page from your browser using a url that looks something like &ldquo;<a style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: underline;\">http://flute.cs.byu.edu:1236/cs360/test1.html</a>,&rdquo; if you are running your server on flute at port 1236 and are trying to access the file &ldquo;test1.html&rdquo; in the directory &lt;dir&gt;/cs360 (with &lt;dir&gt; from the commandline).</p>\n\n<p>You will have an easier time on the next lab if you will create a function that will take a file descriptor for the socket as an argument, and then will read the request from that socket and write the response to that socket. &nbsp;Separate this function from the logic that accepts a connection.</p>\n\n<h1>Resources</h1>\n\n<ul>\n\t<li>This&nbsp;<a href=\"http://bioresearch.byu.edu/CS360/lab2/httpd-tutorial.html\">tutorial</a>&nbsp;should help you in getting&nbsp;your httpd working.</li>\n\t<li>using <a href=\"https://en.wikipedia.org/wiki/Stat_(system_call)\">stat</a> to find file size and type</li>\n\t<li>&nbsp;<a href=\"http://students.cs.byu.edu/~clement/CS360/stat/readdir.cpp\">using dirent</a>&nbsp;to get a directory listing</li>\n\t<li>You may notice that when you start a server on&nbsp;a particular port, you can&#39;t use it again for a while. This occurs because the operating system keeps the resources allocated in case some data is in transit. To eliminate this behavior and allow the port to be immediately reused try\n\t<pre style=\"margin-top: 1.5em; margin-bottom: 1.5em; padding: 0px; border: 0px; font-size: 1em; font-family: 'andale mono', 'lucida console', monospace; vertical-align: baseline; font-stretch: normal; line-height: 1.5; overflow: auto;\">\nint optval = 1;\nsetsockopt (listenSocket, SOL_SOCKET, SO_REUSEADDR, &amp;optval, sizeof(optval));</pre>\n\t</li>\n\t<li>The linux command&nbsp;<strong>GET -Ue [URL]</strong>&nbsp;works similarly to your lab 1 web client program, fetching the given URL and printing out the contents as well as the request and response headers. For more info, run man GET from the command line.</li>\n\t<li>If you are having trouble with your images not loading the while picture, there could be a couple of problems\n\t<ul>\n\t\t<li>It could be that you arent reading all of the request headers. &nbsp;If you only issue one read, you may not get all of them and the browser will time out part way through. &nbsp;You must read the headers until you get the double CR/LF before you send the response back.</li>\n\t\t<li>It could be that you are closing the socket before all of the response has been read by the client. Try the following:\n\t\t<pre style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;margin-top: 1.5em; margin-bottom: 1.5em; padding: 0px; border: 0px; font-size: 1em; font-family: 'andale mono', 'lucida console', monospace; vertical-align: baseline; font-stretch: normal; line-height: 1.5; overflow: auto;\">\nshutdown(hSocket, SHUT_RDWR);</pre>\n\n\t\t<p style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">BEFORE also calling the close() function for the socket, and that seems to have fixed it. &nbsp;If it persists in cutting off the last few bytes of your GIF, you can also try setting the LINGER option to cause the kernel to wait until the data has been received on the browser end before closing the socket.</p>\n\n\t\t<pre>\nlinger lin;\nunsigned int y=sizeof(lin);\nlin.l_onoff=1;\nlin.l_linger=10;\nsetsockopt(fd,SOL_SOCKET, SO_LINGER,&amp;lin,sizeof(lin));\n</pre>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<h1 style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;margin: 0px 0px 0.5em; padding: 0px; border: 0px; font-weight: normal; font-style: inherit; font-size: 3em; font-family: inherit; vertical-align: baseline; color: rgb(17, 17, 17); line-height: 1;\">Getting Started</h1>\n\n<ul style=\"margin: 0px 1.5em 1.25em 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; list-style-type: none;\">\n\t<li><span style=\"font-family: inherit; font-style: inherit; font-weight: inherit;\">How do I get started?&nbsp;</span><span style=\"font-family: inherit; font-style: inherit; font-weight: inherit;\">You can also learn a lot about socket programming by looking at these&nbsp;</span><a href=\"http://students.cs.byu.edu/~clement/CS360/sockets\" style=\"font-family: inherit; font-style: inherit; font-weight: inherit;\">code samples</a><span style=\"font-family: inherit; font-style: inherit; font-weight: inherit;\">&nbsp;(Note: Make sure you know what the sample server and client are doing, because just copying the client code into your lab won&rsquo;t work).</span></li>\n</ul>\n\n<p><span style=\"font-size:26px;\"><strong>Debugging your Server</strong></span></p>\n\n<p>You can use several tools to debug your web server. &nbsp;Lets assume that your web server is running on the machine ec2.amazon.com on port 3000</p>\n\n<p>1) You can try to access the server using the url in your web browser:&nbsp;</p>\n\n<p>http://ec2.amazon.com:3000/foo.html<br />\nRight click and go to inspect on your chrome browser</p>\n\n<p>2) You can use telnet to connect to your server<br />\ntelnet ec2.amazon.com 3000<br />\nThen type<br />\nGET /foo.html HTTP/1.0</p>\n\n<p>3) Use your web client from lab #1<br />\n./download ec2.amazon.com 3000 foo.html</p>\n\n<ul style=\"margin: 0px 1.5em 1.25em 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; list-style-type: none;\">\n\t<li><span style=\"font-size:26px;\"><strong>Pass-off</strong></span></li>\n\t<li>&nbsp;</li>\n\t<li>Please submit your code through Learning Suite. Compress your code in the same manner in which you compressed your web client. &nbsp;Also, put your name and the URL for your web server in this <a href=\"https://docs.google.com/spreadsheets/d/10ehqcoJmM6UKkRvThjHSN520_K1a-gnKpirVXmC8FiQ/edit?usp=sharing\">spreadsheet</a>. &nbsp;We will grade this on the day after it is due.</li>\n\t<li>&nbsp;</li>\n\t<li>\n\t<ul>\n\t\t<li>The evaluator may check (among other things) the following:\n\t\t<table border=\"1\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle; border-collapse: collapse; border-spacing: 0px; width: 495px;\">\n\t\t\t<tbody style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t\t\t<tr class=\"passoffheader\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t\t\t\t<th class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle; background: rgb(94, 178, 229);\">Passoff Level</th>\n\t\t\t\t\t<th class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle; background: rgb(94, 178, 229);\">Behavior</th>\n\t\t\t\t\t<th class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle; background: rgb(94, 178, 229);\">Points</th>\n\t\t\t\t</tr>\n\t\t\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t\t\t<p class=\"passlevel\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Minimal Passoff</p>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t\t\t<p class=\"passbehavior\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">The web server displays text pages</p>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t\t\t<p class=\"points\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">35%</p>\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t\t\t<p class=\"passlevel\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Basic Passoff</p>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t\t\t<p class=\"passbehavior\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">The web server also displays JPG and GIF files</p>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t\t\t<p class=\"points\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">55%</p>\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t\t\t<p class=\"passlevel\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Better&nbsp;</p>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t\t\t<p class=\"passbehavior\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">The web server displays errors correctly.</p>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t\t\t<p class=\"points\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">75%</p>\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t\t\t<p class=\"passlevel\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Better</p>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t\t\t<p class=\"passbehavior\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">The web server creates a directory listing with links to the files in the dirctory or returns index.html if one exists.</p>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t\t\t<p class=\"points\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">95%</p>\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t\t\t<p class=\"passlevel\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Perfect</p>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t\t\t<p class=\"passbehavior\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">The web server renders correctly on two browsers</p>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">100%</td>\n\t\t\t\t</tr>\n\t\t\t</tbody>\n\t\t</table>\n\n\t\t<ul style=\"margin: 0px 1.5em 1.25em 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; list-style-type: none;\">\n\t\t\t<li>&nbsp;</li>\n\t\t\t<li>&nbsp;</li>\n\t\t\t<li>Check functionality on two different browsers (the linux machines in the lab have Firefox, Chrome &nbsp;and Epiphany)</li>\n\t\t\t<li>&nbsp;</li>\n\t\t</ul>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n",
+            "dueDate": 1453964340,
+            "graded": true,
+            "name": "Lab #2 Basic Web Server",
+            "points": 100,
+            "type": "assignment",
+            "url": "wXWr",
+            "weight": 25
+          },
+          {
+            "id": "J7CljFPvJN1X",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1454137140,
+            "graded": true,
+            "name": "ACT #6 Threads",
+            "points": 1,
+            "type": "assignment",
+            "url": "8MEw",
+            "weight": 1
+          },
+          {
+            "id": "KothGPfWpGCC",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1454569140,
+            "graded": true,
+            "name": "ACT #7 Performance",
+            "points": 1,
+            "type": "assignment",
+            "url": "Kocw",
+            "weight": 1
+          },
+          {
+            "id": "eC0GkJ1TqLRB",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "Peformance\r\nThe quizzes are open book, open notes, open internet",
+            "dueDate": 1454569140,
+            "graded": true,
+            "name": "Quiz #4 Performance",
+            "points": 6,
+            "type": "Exam",
+            "url": "9Wtl",
+            "weight": 1
+          },
+          {
+            "id": "sWZlhz00h3e0",
+            "categoryID": "klGPH7MC3H22",
+            "category": "Labs",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1454741940,
+            "graded": true,
+            "name": "Lab #3 On Time Extra Credit",
+            "points": 1,
+            "type": "assignment",
+            "url": "-78V",
+            "weight": 2
+          },
+          {
+            "id": "yfhU_MR2X6Q4",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1455001140,
+            "graded": true,
+            "name": "ACT #8 EPOLL",
+            "points": 1,
+            "type": "assignment",
+            "url": "WkJd",
+            "weight": 1
+          },
+          {
+            "id": "bUu0lOpUSSOv",
+            "categoryID": "klGPH7MC3H22",
+            "category": "Labs",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<style type=\"text/css\">table, th, td {\n    border: 1px solid black;\n}\n</style>\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">In this lab you will write a threaded web server. &nbsp;This web server work in the same way as the basic web server, but it will also serve requests with multiple threads. &nbsp;Your web server should be able to handle multiple simultaneous requests without having the browser time out.</p>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">Please include a make file that generates an executable called &quot;server&quot;. Your program should run with the following options</p>\n\n<ul>\n\t<li style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">server &lt;port number&gt; &lt;num threads&gt; &lt;dir&gt;</li>\n</ul>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">where &lt;port number&gt; is the port that the server listens on, &lt;num threads&gt; is the number of threads that your program will use, and &lt;dir&gt; is the directory that the web server will look in for files to serve. For example, if my program was running with 10 threads on port 3000 and was serving things from /internetStuff I would run:</p>\n\n<ul>\n\t<li style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">server 3000 10 /internetStuff&nbsp;</li>\n</ul>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">The basic architecture of your web server is illustrated in the following image</p>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\"><img src=\"plugins/Upload/fileDownload.php?fileId=568a8913-qtKc-CXEW-PTDd-RScb2b803ccb\" width=\"400\" /></p>\n\n<h1 style=\"margin: 0px 0px 0.5em; padding: 0px; border: 0px; font-weight: normal; font-size: 3em; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(17, 17, 17); line-height: 1; background-color: rgb(255, 255, 255);\">Resources</h1>\n\n<ul>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(&quot;http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif&quot;) 2px 6px no-repeat scroll transparent;\"><a href=\"http://students.cs.byu.edu/~clement/CS360/webserv/queue.cpp\">using an STL queue</a></li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(&quot;http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif&quot;) 2px 6px no-repeat scroll transparent;\"><a href=\"http://students.cs.byu.edu/~clement/CS360/signals/sigaction.cpp\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255);\">using sigaction to catch signals</a>, you will need to ignore SIGPIPE or else your server will die when it tries to read from a socket where the browser has closed the other end</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(&quot;http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif&quot;) 2px 6px no-repeat scroll transparent;\">\n\t<pre class=\"lang-c prettyprint prettyprinted\" style=\"margin-top: 0px; padding: 5px; border: 0px; font-size: 13px; overflow: auto; width: auto; max-height: 600px; font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif; color: rgb(57, 51, 24); word-wrap: normal; background-color: rgb(238, 238, 238);\">\n<code style=\"margin: 0px; padding: 0px; border: 0px; font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif; white-space: inherit;\"><span class=\"pln\" style=\"margin: 0px; padding: 0px; border: 0px; color: rgb(0, 0, 0);\">signal</span><span class=\"pun\" style=\"margin: 0px; padding: 0px; border: 0px; color: rgb(0, 0, 0);\">(</span><span class=\"pln\" style=\"margin: 0px; padding: 0px; border: 0px; color: rgb(0, 0, 0);\">SIGPIPE</span><span class=\"pun\" style=\"margin: 0px; padding: 0px; border: 0px; color: rgb(0, 0, 0);\">,</span><span class=\"pln\" style=\"margin: 0px; padding: 0px; border: 0px; color: rgb(0, 0, 0);\"> SIG_IGN</span><span class=\"pun\" style=\"margin: 0px; padding: 0px; border: 0px; color: rgb(0, 0, 0);\">);</span></code></pre>\n\t</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; background: url(&quot;http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif&quot;) 2px 6px no-repeat scroll transparent;\"><a href=\"http://students.cs.byu.edu/~clement/CS360/threads/sample.cpp\" target=\"_self\">How to create and use threads</a></li>\n\t<li>The code on the Web Server Architecture slides (slide seven) is &nbsp;pseudocode and does not have the full syntax. For example, the correct syntax for semaphores calls are:<br />\n\t<code>#include &lt;semaphore.h&gt;<br />\n\tsem_t nameOfMutex;<br />\n\tsem_init(&amp;nameOfMutex,PTHREAD_PROCESS_SHARED, sizeOfMutex);<br />\n\tsem_wait(&amp;nameOfMutex);<br />\n\tsem_post(&amp;nameOfMutex);<br />\n\tsem_close(&amp;nameOfMutex);</code></li>\n\t<li>To use multiple threads, compile your code with the -lpthread flag <code> g++ -lpthread pthread1.c</code></li>\n\t<li>How do I get started? This set of&nbsp;<a href=\"http://students.cs.byu.edu/~clement/CS360/assignments/WebServerHints.ppt\">powerpoint slides</a>&nbsp;may give you some help in how to break your code into modules and incrementally complete the lab.</li>\n</ul>\n\n<p><span style=\"font-size:28px;\"><strong>Pass Off</strong></span></p>\n\n<ul>\n\t<li>Test your server with 10 threads and a stl queue with a limit of 20 elements to the queue.&nbsp;</li>\n\t<li>Hold down the refresh key on a browser to see if it crashes your server (hint: if you server is dying silently, it may be a broken pipe (SIG_PIPE) signal; running your server under gdb will reveal broken pipes; you might consider catching the SIG_PIPE signal in your server)\n\t<p>&nbsp;</p>\n\t</li>\n\t<li>Dispatch 20 concurrent GET requests to your server using GET from the commandline. From the (bash) commandline you might type something like the following (the &amp; runs the requests concurrently by telling each process to run in the background):\n\t<pre>\n    for ((i=0; i&lt;20; i++))\n    do\n      GET -dUe http://localhost:[port]/test4.jpg &amp;\n    done</pre>\n\n\t<p>The -d option supresses the content from being output (it isn&rsquo;t pretty to print graphics to the terminal).<br />\n\tThe -U option prints request headers.<br />\n\tThe -e option prints response headers.</p>\n\t</li>\n</ul>\n\n<ul>\n\t<li>Please submit your code through Learning Suite. Compress your code in the same manner in which you compressed your web client. &nbsp;Submit the URL to your web server <a href=\"https://docs.google.com/spreadsheets/d/16lU2-5pkHkFJrZZ2P41S_0w9hDhYy8mxrpek-_S3BIM/edit#gid=0\">here</a>.</li>\n\t<li>Start your server so that it will run until you stop it with something like (nohup ./server 3000 10 /internetstuff &gt;&amp; output &amp;)</li>\n\t<li>You can find your server after you log out by using ps (ps ax | grep server), and kill it with kill (kill -9 12435) if 12435 was the process id of your server.</li>\n\t<li>We will pass this off in class according to the following point breakdown.</li>\n</ul>\n\n<table border=\"1\">\n\t<colgroup>\n\t\t<col width=\"100\" />\n\t\t<col width=\"400\" />\n\t\t<col width=\"100\" />\n\t</colgroup>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Passoff Level</th>\n\t\t\t<th>Behavior</th>\n\t\t\t<th>Points</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Minimal Passoff</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>Your server creates a thread for every client connection (This is not what we asked you to do, but at least you get some points for it).</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>55%</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Basic Passoff</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>You create threads at startup and these threads are reused on subsequent requests.</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>70%</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Better&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>You use semaphores to protect a STL queue with connections for your threads.</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>80%</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Perfect</td>\n\t\t\t<td>You can handle a bash script launching 20 concurrent requests from the command line.</td>\n\t\t\t<td>100%</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Extra Credit</td>\n\t\t\t<td>Your server runs without crashing when you hold down the refresh key (F5) on the browser</td>\n\t\t\t<td>+10%</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+            "dueDate": 1455173940,
+            "graded": true,
+            "name": "Lab #3 Threaded Web Server",
+            "points": 100,
+            "type": "assignment",
+            "url": "pli9",
+            "weight": 25
+          },
+          {
+            "id": "UcYsm1TOk9Xz",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1455692340,
+            "graded": true,
+            "name": "ACT #9 Javascript",
+            "points": 1,
+            "type": "assignment",
+            "url": "dCtq",
+            "weight": 1
+          },
+          {
+            "id": "dy0801FF6Piv",
+            "categoryID": "klGPH7MC3H22",
+            "category": "Labs",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<ul>\n\t<li>./webtest bioresearch.byu.edu 80 /CS360/foo.html 100</li>\n</ul>\n\n<p>When you wrote the code for a web client, you waited for a response before issuing another request. &nbsp;In this lab you will write a client that will issue a large number of requests and then asynchronously receive the responses. &nbsp;This will allow you to perform tests to see how good your web server really is.</p>\n\n<p>Your lab will implement the following functionality:</p>\n\n<ul>\n\t<li>You should have a makefile that creates a binary called &quot;webtest&quot; with the parameters webtest hostname port path -d &lt;count&gt;.</li>\n</ul>\n\n<p>./webtest bioresearch.byu.edu 80 /CS360/foo.html 100</p>\n\n<p>./webtest bioresearch.byu.edu 80 /CS360/foo.html -d&nbsp;100&nbsp;</p>\n\n<ul>\n\t<li>When you run webtest it will create &lt;count&gt; sockets, and will issue a request for the &lt;url&gt; on each socket.</li>\n\t<li>The webtest program will then use&nbsp;<a href=\"https://en.wikipedia.org/wiki/Epoll\">epoll</a>&nbsp;to retrieve responses once they come in.</li>\n\t<li>You may want to use <a href=\"http://bioresearch.byu.edu/CS360/lab4/client.c\">this code</a> that we developed in class as a starting point.</li>\n\t<li>Time the latency of the responses and calculate the average response time and the standard deviation and print them to the screen.</li>\n\t<li>If the -d flag is used, print out the response time for each request.</li>\n</ul>\n\n<p><span style=\"font-size:24px;\"><strong>Passoff</strong></span></p>\n\n<p>Please submit your code through Learning Suite. Compress your code in the same manner in which you compressed your web client.&nbsp;</p>\n\n<table border=\"1\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: middle; border-collapse: collapse; border-spacing: 0px; width: 495px;\">\n\t<tbody style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">\n\t\t<tr class=\"passoffheader\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">\n\t\t\t<th class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle; background: rgb(94, 178, 229);\">Passoff Level</th>\n\t\t\t<th class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle; background: rgb(94, 178, 229);\">Behavior</th>\n\t\t\t<th class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle; background: rgb(94, 178, 229);\">Points</th>\n\t\t</tr>\n\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passlevel\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">Minimal Passoff</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passbehavior\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">You issue &lt;count&gt; HTTP requests to the web server correctly.</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"points\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">25%</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passlevel\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">Basic Passoff</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passbehavior\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">You use epoll to wait for the responses with a single thread.</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"points\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">50%</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passlevel\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">Better&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passbehavior\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">You report on the response time with the -d option</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"points\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">75%</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passlevel\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">Perfect</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passbehavior\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">You correctly calculate the average response time and standard deviation and print them out</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"points\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">100%</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passlevel\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passbehavior\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;\">&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-family: inherit; vertical-align: middle;\">&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<ul style=\"margin: 0px 1.5em 1.25em 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style-type: none;\">\n\t<li style=\"font-family: inherit; font-style: inherit; font-weight: inherit; margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; vertical-align: baseline; background-image: url(&quot;http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif&quot;); background-attachment: scroll; background-size: initial; background-origin: initial; background-clip: initial; background-position: 2px 6px; background-repeat: no-repeat;\">&nbsp;</li>\n</ul>\n",
+            "dueDate": 1455692340,
+            "graded": true,
+            "name": "Lab #4 Asynchronous I/O",
+            "points": 100,
+            "type": "assignment",
+            "url": "eOBc",
+            "weight": 25
+          },
+          {
+            "id": "syiNGmnClR3V",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1455778740,
+            "graded": true,
+            "name": "ACT #10 DOM",
+            "points": 1,
+            "type": "assignment",
+            "url": "FHSH",
+            "weight": 1
+          },
+          {
+            "id": "Fdlo59_BhdAA",
+            "categoryID": "xxqGdH1XRLmx",
+            "category": "Midterm Exam",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "Midterm Exam covering System Calls, Networking Protocols and Performance.",
+            "dueDate": 1455940800,
+            "graded": true,
+            "name": "Midterm Exam",
+            "points": 27,
+            "type": "ExamTC",
+            "url": "3rv2",
+            "weight": 15
+          },
+          {
+            "id": "lUa5KHBlegDW",
+            "categoryID": "klGPH7MC3H22",
+            "category": "Labs",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<p class=\"introduction\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">Almost everyone has experienced long delays in accessing a web application. Research on computer response time has yielded the following results (&rdquo;A Study of Web Users&rsquo; Waiting Time&rdquo;, Fui Hoon Nah, Proceedings of the 2000 information resources management association international conference on Challenges of information technology management in the 21st century):</p>\n\n<ul style=\"margin: 0px 1.5em 1.25em 0px; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; list-style-type: none; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">0.1 seconds is about the limit for having the user feel that the system is reacting instantaneously.</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">1.0 seconds is about the limit for the user&rsquo;s flow of thought to stay uninterrupted, even though the user will notice the delay. If you are using javascript to update the page as the user is typing, then delays longer than 1 second will interrupt his typing or use of the page.</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">10 seconds is about the limit for keeping the user&rsquo;s attention focused on the dialog. For longer delays, the user will want to perform other tasks while waiting, or he will give up.</li>\n</ul>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">Given this fairly low tolerance of delay among users, it is important for web application developers to understand the theoretical response time (Queuing Theory) and the experimental response time of their application and the web server in general. Experimental performance evaluation of web servers is important for the following reasons:</p>\n\n<ul>\n\t<li style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">You will need to determine whether the web server you are using can handle the expected load of your application before you deploy it.</li>\n\t<li style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">You need to find a way of blaming problems on someone else.</li>\n\t<li style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">In the rare case where it is your problem, you need to be able to recreate the problem without losing customers.</li>\n</ul>\n\n<h2 style=\"margin: 0px 0px 0.75em; padding: 0px; border: 0px; font-size: 24px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(17, 17, 17); display: inline; background-color: rgb(255, 255, 255);\">Performance Analysis Architectures</h2>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">Several performance analysis architectures can be used. Often a single load generating application may not be able to create enough load to stress the server. The network configuration may also mask the real problem if you run your load on a single machine. For this reason, several different architectures may be used:</p>\n\n<ul style=\"margin: 0px 1.5em 1.25em 0px; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; list-style-type: none; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">Single simulated user on a multiple machines. This is closest to a real load since there will be no network bottlenecks on the user side. Additional accuracy can be derived from simulating the actual bandwidth available to an average user on each of these machines. The downside is that you need a pile of machines and you still may not be accurate enough to pinpoint system problems.</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">Multiple simulated users on a single machine. This is the easiest approach, but you must be careful in creating the benchmark application. Most operating systems limit the number of open connections that an application can have open at any time, and the underlying socket library may also impact the performance analysis. This is the easiest approach and may allow you to see the majority of the important performance characteristics of your server.</li>\n</ul>\n\n<h1 style=\"margin: 0px 0px 0.5em; padding: 0px; border: 0px; font-weight: normal; font-size: 3em; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(17, 17, 17); line-height: 1; background-color: rgb(255, 255, 255);\">This Assignment</h1>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">In this assignment, you will compare the performance of your web server to apache. The goals of this assignment are to:</p>\n\n<ol style=\"margin: 0px 1.5em 1.25em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Learn how to use a workload generator.</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Demonstrate your ability to write a persuasive paper.</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Gain experience with the scientific method when running experiments, collecting data, and analyzing data.</li>\n</ol>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">You can use any techniques you feel appropriate to gather data for your performance paper. You should include performance graphs, and text that supports your conclusions.</p>\n\n<ol style=\"margin: 0px 1.5em 1.25em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">We talked in class about using the apache benchmark <a href=\"https://httpd.apache.org/docs/2.2/programs/ab.html\">ab</a>. &nbsp;You should be able to complete this lab using ab and your own lab 4 implementation.</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Another approach to measuring performance is to use&nbsp;<a href=\"http://jakarta.apache.org/jmeter/\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255);\">jmeter</a>. &nbsp;It is a java application that uses multiple threads and potentially&nbsp;<a href=\"http://jakarta.apache.org/jmeter/usermanual/jmeter_distributed_testing_step_by_step.pdf\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255);\">multiple machines</a>&nbsp;to provide a synthetic load on your web server.</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">You may need to <a href=\"https://easyengine.io/tutorials/linux/increase-open-files-limit/\">increase the open file limit</a> to allow you to run tests with a large number of open sockets</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Metrics &ndash; You should run your experiments several times to eliminate statistical noise. Then, you should plot the mean values along with the standard deviations for each experiment.</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Experiments &ndash; You should not run the load generator on the machine where the web server is running.</li>\n</ol>\n\n<ul style=\"margin: 0px 1.5em 1.25em 80px; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Graphs -You should create graphs that clearly show performance changes as the load increases. You should explain what is happening in the graphs. In all cases, you should compare your web server&rsquo;s performance with Apache&rsquo;s performance. You can choose how to demonstrate the differences, but you may want to consider the following suggestions.</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Plot mean reply rate versus file size for various request rates</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Plot mean response time versus file size</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Plot mean error rate versus request rate</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Plot download time as a function of load in clients/minute. For each load value, you will have downloaded many objects in each of the three repeated experiments. Average the download time over&nbsp;<span style=\"font-family: inherit; font-style: inherit; font-weight: inherit;\">all objects downloaded over all experiments for each load value. In addition to the average, plot standard deviation and the 10th and 90th percentile values. Use only those objects that were actually downloaded.</span></li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\"><span style=\"font-family: inherit; font-style: inherit; font-weight: inherit;\">Plot download rate as a function of load. This is the same graph as above, but with the download rate on the y axis. Divide the size of the object in bits by the download time in seconds to get the number of bits transferred per second. Multiply by 1000 to get Kbps. You should again plot average, standard deviation, and percentiles. Use only those objects that were actually downloaded.</span></li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\"><span style=\"font-family: inherit; font-style: inherit; font-weight: inherit;\">Plot failed downloads as a function of load. A failed download is any download attempt that timed out. Pick timeout values that make sense for your experimental configuration.</span></li>\n</ul>\n\n<h2 style=\"margin: 0px 0px 0.75em; padding: 0px; border: 0px; font-size: 24px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(17, 17, 17); display: inline; background-color: rgb(255, 255, 255);\">Deliverables</h2>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">You should write a paper describing the performance of your web server when compared to Apache. The paper should be long enough for you to make a convincing argument and should include section headings and the following sections:</p>\n\n<ol style=\"margin: 0px 1.5em 1.25em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Title</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Abstract</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Introduction</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Related Work (what have others done to evaluate server performance?)</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Experimental Setup</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Results</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Conclusions</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Bibliography</li>\n</ol>\n\n<p style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">Submit a pdf of your report through learningsuite.</p>\n\n<h2 style=\"margin: 0px 0px 0.75em; padding: 0px; border: 0px; font-size: 24px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(17, 17, 17); display: inline; background-color: rgb(255, 255, 255);\">Resources</h2>\n\n<ul style=\"margin: 0px 1.5em 1.25em 0px; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; list-style-type: none; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">Apache should already be installed on your bitnami instance.</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">Start by using the Apache Benchmark test in the bin directory of your apache installation. The&nbsp;<a href=\"http://httpd.apache.org/docs/2.0/programs/ab.html\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255);\">manual page&nbsp;</a>will be helpful along with the&nbsp;<a href=\"http://faculty.cs.byu.edu/~clement/CS360/perf-tut.shtml\">performance tutorial</a>.</li>\n\t<li style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">You may find this&nbsp;<a href=\"http://www.xenoclast.org/doc/benchmark/HTTP-benchmarking-HOWTO/\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255);\">Linux HTTP Benchmarking HOWTO</a>&nbsp;to be helpful.</li>\n</ul>\n\n<p style=\"margin: 0px 0px 0.25em; padding: 0px 0px 0px 21px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline; background: url(http://dna.cs.byu.edu/CS360/wp-content/themes/gear/images/ico/bullet-white.gif) 2px 6px no-repeat scroll transparent;\">Submit a pdf of your performance report through learningsuite.</p>\n\n<hr style=\"color: rgb(221, 221, 221); clear: both; float: none; width: 664px; height: 0.1em; margin: 0px 0px 1.45em; border: none; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; background: rgb(221, 221, 221);\" />\n<table border=\"1\" class=\"passofftable\" style=\"margin: 0px; padding: 0px; border: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: middle; border-collapse: collapse; border-spacing: 0px; width: 663px; color: rgb(102, 102, 102); line-height: 21px; background-color: rgb(255, 255, 255);\">\n\t<tbody style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t<tr class=\"passoffheader\" style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">Passoff Level</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">Behavior</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">Points</td>\n\t\t</tr>\n\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passlevel\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Minimal Passoff</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passbehavior\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Compare the average latency of your web server with Apache on a single file.</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"points\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">70%</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passlevel\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Basic Passoff</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passbehavior\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Compare the performance using several different file sizes.</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"points\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">85%</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passlevel\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Perfect Passoff</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passbehavior\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Write persuasively to convince the reader of your point of view.</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"points\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">100%</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passlevel\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Extra Credit</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passbehavior\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Turned the paper in 2 days early</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"points\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">+10%</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr style=\"margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passlevel\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Extra Credit</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"passbehavior\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">Turned the paper in 1 days early</p>\n\t\t\t</td>\n\t\t\t<td class=\"passoffcell\" style=\"margin: 0px; padding: 2px; border: 1px solid; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: middle;\">\n\t\t\t<p class=\"points\" style=\"margin: 0px 0px 1em; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;\">+5%</p>\n\n\t\t\t<div>&nbsp;</div>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+            "dueDate": 1456210740,
+            "graded": true,
+            "name": "Lab #5 Performance Report",
+            "points": 100,
+            "type": "assignment",
+            "url": "C46c",
+            "weight": 25
+          },
+          {
+            "id": "mEpD0zrw6Baz",
+            "categoryID": "klGPH7MC3H22",
+            "category": "Labs",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1456210740,
+            "graded": true,
+            "name": "Lab #5 Extra Credit",
+            "points": 1,
+            "type": "assignment",
+            "url": "7FpR",
+            "weight": 2.5
+          },
+          {
+            "id": "W2X_qBSvyfru",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "This assignment will allow you to become familiar with basic javascript\r\nThe quizzes are open book, open notes, open internet",
+            "dueDate": 1456383540,
+            "graded": true,
+            "name": "Quiz #5 Javascripting ",
+            "points": 10,
+            "type": "Exam",
+            "url": "YvN4",
+            "weight": 1
+          },
+          {
+            "id": "5Cllw8kxmSfa",
+            "categoryID": "klGPH7MC3H22",
+            "category": "Labs",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<p>As you work through this lab, try to do as much as you can without blindly following the tutorial. &nbsp;You will get a lot more out of the experience if you will experiment with different settings, look at how to find errors and become fluent with the jquery environment.</p>\n\n<p>In this lab, you will implement a jquery ajax application that creates a weather application. &nbsp;Your page should to the following:</p>\n\n<p><img src=\"plugins/Upload/fileDownload.php?fileId=4141cfd4-VmkM-HCFL-VOr0-LHf76847219b\" width=\"200\" /></p>\n\n<p>1) Allow the user to type characters into a form. &nbsp;With each keystroke, query a <a href=\"https://students.cs.byu.edu/~clement/CS360/ajax/getcity.cgi?q=P\">REST service</a>&nbsp;that will return a list of cities in utah that have those characters as a prefix. &nbsp;This will provide a hint to the user as to what legal values can be. &nbsp;Put these options into a list. These <a href=\"http://bioresearch.byu.edu/cs260/jquery/Lab1.html\">hints</a> may be helpful.</p>\n\n<p>2) When the user selects the submit button, take the entry from the form and put it into the CITY box on the page. &nbsp;These <a href=\"http://bioresearch.byu.edu/cs260/jquery/Lab2.html\">hints</a> may be helpful.</p>\n\n<p>3) The submit button will also query the <a href=\"http://www.wunderground.com/weather/api/d/docs\">weatherunderground REST service</a> to get the current weather for that city. &nbsp;These <a href=\"http://students.cs.byu.edu/~clement/CS360/jquery/Lab3.html\">hints</a> may be helpful.</p>\n\n<p>Submit the URL where your code can be found along with any comments you have that will make your assignment easier to grade. &nbsp;And put your URL in the <a href=\"https://docs.google.com/spreadsheets/d/1gHVZtYetlKXLKxFJ4sJLwxxXRsR0v-7ZJgGqVFw_xmo/edit?usp=sharing\">spreadsheet</a>.</p>\n\n<p><strong>Grading:</strong></p>\n\n<ul>\n\t<li>(50%) As you type characters, the application suggests legal values.</li>\n\t<li>(10%) When the submit button is pressed, you correctly fill in the City box.</li>\n\t<li>(25%) You make the request to the weatherunderground site and fill in the weather &lt;div&gt;.</li>\n\t<li>(15%) You do something creative. &nbsp;Put something on your page that makes a request to a different REST service and displays the results.</li>\n</ul>\n",
+            "dueDate": 1456815540,
+            "graded": true,
+            "name": "Lab #6 Jquery and AJAX",
+            "points": 100,
+            "type": "assignment",
+            "url": "ZBxs",
+            "weight": 10
+          },
+          {
+            "id": "TSBjpW5eh0yv",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "This assignment will allow you to become familiar with Node.js asynchronous I/O and http",
+            "dueDate": 1456815540,
+            "graded": true,
+            "name": "Quiz #6 Node.js",
+            "points": 10,
+            "type": "Exam",
+            "url": "BBKU",
+            "weight": 1
+          },
+          {
+            "id": "kmfpk7Cz6tud",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1457161140,
+            "graded": true,
+            "name": "ACT #11 REST Routes",
+            "points": 1,
+            "type": "assignment",
+            "url": "Rzx4",
+            "weight": 1
+          },
+          {
+            "id": "vTUcEXVxOLNJ",
+            "categoryID": "klGPH7MC3H22",
+            "category": "Labs",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<p>In this lab you will implement the cities RESTful service in Node.js that connects to your weather AJAX application. &nbsp;You will take a URL with a ?q=chars suffix and will look up all of the utah cities that have chose chars as a prefix. &nbsp;You will then return a JSON string corresponding to the entries.</p>\n\n<p>The first step in this lab is to get the web server running from <a href=\"https://github.com/bwdbooks/nodejs-mongodb-angularjs-web-development/blob/master/ch07/http_server_static.js\">section 7.1 in the book</a>&nbsp;(you may find the <a href=\"http://nodejs.org/api/http.html\">node documentation</a> helpful). &nbsp;You should be able to download all of the static pages for your application using this web server. Test your server using the static pages we used to test your C++ web server. &nbsp;Then you should copy your jquery javascipt weather application into the html folder of the node web server. &nbsp;You should be running this web server on the Amazon CS2 server or another virtual server.</p>\n\n<p>The jquery application should be modified to make the jsonp request to your own REST server instead of the <a href=\"https://students.cs.byu.edu/~clement/CS360/ajax/getcity.cgi?q=P\">one used</a> for your jquery lab.</p>\n\n<p>These <a href=\"http://bioresearch.byu.edu/cs260/node/nodelabhints.html\">hints</a> may be helpful if you get stuck.</p>\n\n<p>Now upload your server to a <a href=\"https://students.cs.byu.edu/~clement/CS360/git.html\">git repository</a>.</p>\n\n<p><strong>Passoff:</strong></p>\n\n<p>You should test your server to make sure it works with your jquery script. &nbsp; Your submission to learningsuite should contain:</p>\n\n<ul>\n\t<li>The URL of your jquery script</li>\n\t<li>The URL of your REST server</li>\n\t<li>The TAs will need to access the URL of your server, so you need to have it run even after you log out. &nbsp;Try using nohup to make this happen:</li>\n</ul>\n\n<p class=\"p1\"><em>nohup npm start &gt;&amp; output.node &amp;</em></p>\n\n<p class=\"p1\">Then make sure you log out using</p>\n\n<p class=\"p1\"><em>exit</em></p>\n\n<p class=\"p1\">In this command you are disassociating the process from your login, so it will not exit when you logout. &nbsp;The &gt;&amp; means redirection stdout and stderr to the file output.node. &nbsp;The &amp; at the end means to run it in background.</p>\n\n<p class=\"p1\">Once this process is running, you can terminate it using</p>\n\n<p class=\"p1\"><em>killall .node.bin</em></p>\n\n<p><strong>Grading:</strong></p>\n\n<ul>\n\t<li>(10%) You have correctly uploaded your code to <a href=\"https://students.cs.byu.edu/~clement/CS360/git.html\">git</a>&nbsp;</li>\n\t<li>(20%) Your node.js web server can return the test files from the prior labs (<a href=\"https://students.cs.byu.edu/~clement/CS360/labs/test1.html\">test1.html,</a> <a href=\"https://students.cs.byu.edu/~clement/CS360/labs/test2.txt\">test2.txt</a>, <a href=\"https://students.cs.byu.edu/~clement/CS360/labs/test3.gif\">test3.gif</a>, <a href=\"https://students.cs.byu.edu/~clement/CS360/labs/test4.jpg\">test4.jpg</a>).</li>\n\t<li>(20%) Your node.js service correctly returns JSON entries for cities.</li>\n\t<li>(35%) You return the correct cities with prefix given in the ?q=chars string.</li>\n\t<li>(15%) You implement another creative REST service and call it from your jquery script.</li>\n</ul>\n",
+            "dueDate": 1457420340,
+            "graded": true,
+            "name": "Lab #7 Node.js",
+            "points": 10,
+            "type": "assignment",
+            "url": "QAoZ",
+            "weight": 10
+          },
+          {
+            "id": "3N35xN0xUCRA",
+            "categoryID": "3an1FSUt1JH0",
+            "category": "Project",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<p>Agree with your group on a basic idea for your project. &nbsp;Then give a one sentence description of what you will be doing. &nbsp;You can use the same submission for all of your group members. &nbsp;Just list the group members in your submission.</p>\n\n<p>For Example:</p>\n\n<p>For our project we will create an application that will allow non-profit organizations to track the total time spent by volunteers.</p>\n",
+            "dueDate": 1457593140,
+            "graded": true,
+            "name": "Project Topic",
+            "points": 10,
+            "type": "assignment",
+            "url": "VEEE",
+            "weight": 5
+          },
+          {
+            "id": "4be_GzzCCvnL",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "Mongodb text examples",
+            "dueDate": 1457593140,
+            "graded": true,
+            "name": "Quiz #7 Mongodb",
+            "points": 3,
+            "type": "Exam",
+            "url": "Ku6N",
+            "weight": 1
+          },
+          {
+            "id": "5h_uKEKiistz",
+            "categoryID": "klGPH7MC3H22",
+            "category": "Labs",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<p>Many social media applications allow users to insert comments. &nbsp;In this lab, you will configure a MongoDB database and connect it to your node.js web server. &nbsp;</p>\n\n<p>Modify your jquery application to display entries from the database and allow users to enter new comments. &nbsp;Your output should look something like this:</p>\n\n<p>===========================</p>\n\n<form action=\"http://mclement.us/v4.html\" id=\"commentForm\">Name:&nbsp;<input data-cip-id=\"Name\" id=\"Name\" type=\"text\" value=\"Mickey\" /><br />\nComment:&nbsp;<input data-cip-id=\"Comment\" id=\"Comment\" type=\"text\" value=\"Hello\" />&nbsp;</form>\n\n<p><button id=\"Submit\">Submit Comment</button>&nbsp;<button id=\"Show\">Show Comments</button></p>\n\n<div id=\"json\">{&quot;Name&quot;:&quot;Foobar&quot;,&quot;Comment&quot;:&quot;Hello&quot;}</div>\n\n<div id=\"done\">success</div>\n\n<p>Current Comments:</p>\n\n<ul>\n\t<li><span id=\"currentComments\">Name: Mickey Comment: Hello</span></li>\n\t<li><span id=\"currentComments\">Name: Mark Comment: This is a comment</span></li>\n\t<li><span id=\"currentComments\">Name: Frodo Comment: Hi</span></li>\n\t<li><span id=\"currentComments\">Name: Minnie Comment: Hello</span></li>\n\t<li><span id=\"currentComments\">Name: Foobar Comment: Hello</span></li>\n</ul>\n\n<p>===========================</p>\n\n<p>When you click the &quot;submit button&quot;, fill in a div with the JSON string you will send to the POST interface of your REST service. &nbsp;When the REST service returns, fill in the next div with &quot;success&quot;. &nbsp;When the user clicks &quot;show comments&quot;, contact the GET interface of your REST service and retrieve all of the comments currently in the database and print them in an unordered list.</p>\n\n<p>These <a href=\"http://bioresearch.byu.edu/cs260/mongohints.html\">hints</a> may be helpful as your implement your node/mongodb application.</p>\n\n<p><strong>Passoff:</strong></p>\n\n<p>You should test your server to make sure it works with your jquery script. &nbsp; Your submission to learningsuite should contain:</p>\n\n<ul>\n\t<li>The URL of your jquery script</li>\n\t<li>The URL of your REST server for comments</li>\n\t<li>The URL of the github repository with all of your source</li>\n</ul>\n\n<p>The TAs will need to access the URL of your server, so you need to have it run even after you log out. &nbsp;Try using nohup to make this happen:</p>\n\n<p class=\"p1\"><em><span class=\"s1\">nohup sudo mongod --fork --logpath /var/log/mongodb.log &gt;&amp; mongo.out</span></em></p>\n\n<p class=\"p1\"><em>nohup sudo node static.js &gt;&amp; output.node &amp;</em></p>\n\n<p class=\"p1\">In this command you are disassociating the process from your login, so it will not exit when you logout. &nbsp;The &gt;&amp; means redirection stdout and stderr to the file output.node. &nbsp;The &amp; at the end means to run it in background.</p>\n\n<p><strong>Grading:</strong></p>\n\n<ul>\n\t<li>(30%) The GET interface for your REST service returns the current comments</li>\n\t<li>(30%) You can pass the POST interface for your REST service a new comment and it correctly inserts it.&nbsp;</li>\n\t<li>(25%) Your jquery application displays things properly.</li>\n\t<li>(15%) Do something creative with your comments application.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p class=\"p1\">&nbsp;</p>\n",
+            "dueDate": 1458021540,
+            "graded": true,
+            "name": "Lab #8 MongoDB",
+            "points": 10,
+            "type": "assignment",
+            "url": "L1sK",
+            "weight": 10
+          },
+          {
+            "id": "9SmFOZ0APeqd",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "This quiz comes from chapter 18 in the book.",
+            "dueDate": 1458021540,
+            "graded": true,
+            "name": "Quiz #8 Express",
+            "points": 3,
+            "type": "Exam",
+            "url": "66M2",
+            "weight": 1
+          },
+          {
+            "id": "o0HaV_xvxJjd",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1458021540,
+            "graded": true,
+            "name": "ACT #12 Angular",
+            "points": 1,
+            "type": "assignment",
+            "url": "LTXx",
+            "weight": 1
+          },
+          {
+            "id": "z-cxDYCyZydd",
+            "categoryID": "3an1FSUt1JH0",
+            "category": "Project",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<p>This assignment will allow you to create some additional detail for your project. &nbsp;It should include the following elements (for more detail, you can look for <a href=\"http://www.toptal.com/freelance/why-design-documents-matter\">examples of web application design documents</a> on the web):</p>\n\n<p>1) An <strong>Executive Summary</strong> with 3 or 4 sentences describing why your project is important and the basics of what you will accomplish.</p>\n\n<p>2) A <strong>Functional Description</strong> where you will describe the problem in detail and the use cases you hope to deal with in your application.</p>\n\n<p>3) A M<strong>ethods</strong> section where you will describe each of the tasks that will need to be accomplished during your project. &nbsp;You might want to create a mock up of the pages that will be in your application and at least have an idea of what will be done in the front end and what will occur in the back end. &nbsp;Try to break the project into small, self contained tasks that can be worked on independently by each member of your group.</p>\n\n<p>4) You need to create <strong>Milestones</strong> for when each of these tasks will be completed so you will know if you are on schedule.</p>\n\n<p>Please submit a pdf document through learningsuite</p>\n",
+            "dueDate": 1458194340,
+            "graded": true,
+            "name": "Project Design Document",
+            "points": 10,
+            "type": "assignment",
+            "url": "oNd8",
+            "weight": 15
+          },
+          {
+            "id": "92ZeDcbfxbsY",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1458367140,
+            "graded": true,
+            "name": "ACT #13 Directives",
+            "points": 1,
+            "type": "assignment",
+            "url": "bumy",
+            "weight": 1
+          },
+          {
+            "id": "HPhl1UjL-R6-",
+            "categoryID": "klGPH7MC3H22",
+            "category": "Labs",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<p>Use Angular to create an interactive Model View Controller application for your comment application.</p>\n\n<p>Your application must use Angular, Express, Mongo and Node.</p>\n\n<p>You ought to think about implementing this lab using the following steps</p>\n\n<ol>\n\t<li>Get a single file Angular application working&nbsp;</li>\n\t<li>Use express to create a template.</li>\n\t<li>Connect the application to Mongo.</li>\n</ol>\n\n<p>These&nbsp;<a href=\"http://bioresearch.byu.edu/cs260/express/angularhints.html\">hints</a>&nbsp;may be helpful as your implement your express application.</p>\n\n<p><strong>Passoff:</strong></p>\n\n<p>Your submission to learningsuite should contain:</p>\n\n<ul>\n\t<li>The URL of your comments angular app</li>\n\t<li>The URL of the github repository with all of your source code.</li>\n\t<li>A description of your creative contribution.</li>\n</ul>\n\n<p>The TAs will need to access the URL of your server, so you need to have it run even after you log out.&nbsp;</p>\n\n<p><strong>Grading:</strong></p>\n\n<ul>\n\t<li>(10%) You have the basic angular app running that allows you to display a list of comments.</li>\n\t<li>(30%) You can add comments and upvote them.</li>\n\t<li>(10%) You have implemented the Model/View/Controller express template.&nbsp;</li>\n\t<li>(35%) You connect to the mongo database and have persistance across web sessions.</li>\n\t<li>(15%) You do something creative with angular. &nbsp;Describe this in your submission.</li>\n</ul>\n",
+            "dueDate": 1458626340,
+            "graded": true,
+            "name": "Lab #9 Angular",
+            "points": 10,
+            "type": "assignment",
+            "url": "pCv0",
+            "weight": 10
+          },
+          {
+            "id": "MuWfQPMTNqk8",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "This quiz will get you acquainted with angular",
+            "dueDate": 1458626340,
+            "graded": true,
+            "name": "Quiz #9 Angular",
+            "points": 7,
+            "type": "Exam",
+            "url": "IEIc",
+            "weight": 1
+          },
+          {
+            "id": "97hxoQvG8l9M",
+            "categoryID": "lr3SL208eylq",
+            "category": "Homework and Quizes",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1458971940,
+            "graded": true,
+            "name": "ACT #14 Authentication",
+            "points": 1,
+            "type": "assignment",
+            "url": "7kun",
+            "weight": 1
+          },
+          {
+            "id": "xdpxaNc-2A_7",
+            "categoryID": "3an1FSUt1JH0",
+            "category": "Project",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<p>Evaluate progress and update any milestones that need to be rescheduled.</p>\n\n<p>Indicate which tasks each group member has accomplished since the proposal.</p>\n\n<p>Submit a pdf document with this content.</p>\n\n<p>Enter your status on the <a href=\"https://docs.google.com/spreadsheets/d/1nnxFBKWwwV2ngQLaAbSO1yJ7k_vwKC-cuGsEl_L3MX8/edit?usp=sharing\">spreadsheet</a>&nbsp;and make sure your group members are entered correctly</p>\n",
+            "dueDate": 1459231140,
+            "graded": true,
+            "name": "Milestone #1",
+            "points": 10,
+            "type": "assignment",
+            "url": "2DaU",
+            "weight": 8
+          },
+          {
+            "id": "4xrJdStBwVxS",
+            "categoryID": "klGPH7MC3H22",
+            "category": "Labs",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<p>Create a clustered angular application that displays the Process ID of the web server that is handling the REST service. &nbsp;You should consult chapter 9 from the book in creating this application. &nbsp;The following steps should be followed in completing this lab (you may find these <a href=\"https://students.cs.byu.edu/~clement/CS360/clusterhints.html\">hints</a> to be helful).</p>\n\n<ol>\n\t<li>Use &#39;express --ejs cluster&#39; to create your express ejs view. &nbsp;Render the view with the process.pid shown.</li>\n\t<li>Create a REST service that will return JSON with the pid. &nbsp;This pid should change when you run the apache benchmark &#39;ab -n 100 -v 10 http://yourIP/RESTURL/&#39;</li>\n\t<li>Create an angular application that accesses this JSON service to display the pid</li>\n</ol>\n\n<p><strong>Passoff:</strong></p>\n\n<p>Your submission to learningsuite should contain:</p>\n\n<ul>\n\t<li>The URL of your REST service that returns the PID</li>\n\t<li>The URL of your angular application that repeatedly displays 100 PIDs</li>\n\t<li>The URL of the github repository with all of your source code.</li>\n\t<li>The grade you think you should get on the lab (percentage)</li>\n</ul>\n\n<p>The TAs will need to access the URL of your server, so you need to have it run even after you log out. Start this application on a dedicated port.</p>\n\n<p><strong>Grading:</strong></p>\n\n<ul>\n\t<li>(50%) Your REST service works and displays 4 different PIDs when accessed with &#39;ab -n 100 -v 10 http://YOURIP/YOURREST/&#39;.</li>\n\t<li>(50%) Your angular application repeatedly accesses this REST service and displays the PIDs.</li>\n</ul>\n",
+            "dueDate": 1459576740,
+            "graded": true,
+            "name": "Lab #10 Cluster",
+            "points": 10,
+            "type": "assignment",
+            "url": "Pso8",
+            "weight": 5
+          },
+          {
+            "id": "02nHJkH7CtKb",
+            "categoryID": "klGPH7MC3H22",
+            "category": "Labs",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "",
+            "dueDate": 1459835940,
+            "graded": true,
+            "name": "Gruyere",
+            "points": 4,
+            "type": "assignment",
+            "url": "Eoee",
+            "weight": 12.5
+          },
+          {
+            "id": "PwbLn04lSUTX",
+            "categoryID": "3an1FSUt1JH0",
+            "category": "Project",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<p>Evaluate progress and update any milestones that need to be rescheduled.</p>\n\n<p>Indicate which tasks each group member has accomplished since the proposal.</p>\n\n<p>Submit a pdf document with this content.</p>\n\n<p>Enter your status on the <a href=\"https://docs.google.com/spreadsheets/d/1nnxFBKWwwV2ngQLaAbSO1yJ7k_vwKC-cuGsEl_L3MX8/edit?usp=sharing\">spreadsheet</a> and make sure your group members are correct.</p>\n",
+            "dueDate": 1459835940,
+            "graded": true,
+            "name": "Milestone #2",
+            "points": 10,
+            "type": "assignment",
+            "url": "NM21",
+            "weight": 8
+          },
+          {
+            "id": "DXkvemuiz4NT",
+            "categoryID": "3an1FSUt1JH0",
+            "category": "Project",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<p>Section 1: Friday, April 17, 7:00 a.m. to 10:00 a.m.</p>\n\n<p>Section 2: Monday, April 20, 2:30 p.m. to 5:30 p.m.</p>\n\n<p><span style=\"color: rgb(68, 68, 68); font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Helvetica, Arial, sans-serif; font-size: 13px; line-height: 18px; background-color: rgb(255, 255, 255);\">Plan on 10 minutes per group and make sure each member of your group has a chance to discuss his/her contribution to the project. &nbsp;</span></p>\n\n<p><span style=\"color: rgb(68, 68, 68); font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Helvetica, Arial, sans-serif; font-size: 13px; line-height: 18px; background-color: rgb(255, 255, 255);\">The evaluation will focus on how much you learned, rather than the absolute quality of the project. &nbsp;So be sure to focus on the delta between where you were when you started and where you ended up at the end of the project.</span></p>\n\n<p><font color=\"#444444\" face=\"Lucida Grande, Lucida Sans Unicode, Lucida Sans, Helvetica, Arial, sans-serif\"><span style=\"font-size: 13px; line-height: 18px; background-color: rgb(255, 255, 255);\">Bring your laptop to the final. &nbsp;You will be filling out the google form on the class schedule for each group to provide feedback to them. &nbsp;The feedback will include:</span></font></p>\n\n<ul>\n\t<li>Organization</li>\n\t<li>Content</li>\n\t<li>Visuals</li>\n\t<li>Delivery</li>\n\t<li>Timing</li>\n</ul>\n\n<p>So, make sure that your presentation is well organized and provides insights for your audience. &nbsp;Follow the presentation guidelines on the schedule.</p>\n",
+            "dueDate": 1460440740,
+            "graded": true,
+            "name": "Project Oral Presentation ",
+            "points": 25,
+            "type": "assignment",
+            "url": "aNDm",
+            "weight": 25
+          },
+          {
+            "id": "HTbLZEkY91e4",
+            "categoryID": "3an1FSUt1JH0",
+            "category": "Project",
+            "courseID": "W4dhJEVp9d-c",
+            "description": "<p>Your Final Project Report should include:</p>\n\n<p style=\"margin: 1em 0px; padding: 0px; border: 0px; outline: 0px; font-size: 13px; vertical-align: baseline; color: rgb(68, 68, 68); font-family: 'Lucida Grande', 'Lucida Sans', Tahoma, Helvetica, Arial, sans-serif; line-height: 18px; background: rgb(249, 252, 254);\">1) An&nbsp;<strong style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;\">Executive Summary</strong>&nbsp;with 3 or 4 sentences describing why your project is important and the basics of what you accomplished.</p>\n\n<p style=\"margin: 1em 0px; padding: 0px; border: 0px; outline: 0px; font-size: 13px; vertical-align: baseline; color: rgb(68, 68, 68); font-family: 'Lucida Grande', 'Lucida Sans', Tahoma, Helvetica, Arial, sans-serif; line-height: 18px; background: rgb(249, 252, 254);\">2) A&nbsp;<strong style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;\">Functional Description</strong>&nbsp;where you will describe the problem in detail and the use cases you hope to deal with in your application. &nbsp;These should be updated with the interactions you actually implemented and a discussion of why changes were made.</p>\n\n<p style=\"margin: 1em 0px; padding: 0px; border: 0px; outline: 0px; font-size: 13px; vertical-align: baseline; color: rgb(68, 68, 68); font-family: 'Lucida Grande', 'Lucida Sans', Tahoma, Helvetica, Arial, sans-serif; line-height: 18px; background: rgb(249, 252, 254);\">3) A M<strong style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;\">ethods</strong>&nbsp;section where you will describe each of the tasks that you accomplished during your project. &nbsp;<strong>Describe the contributions of each member of your group for each of the tasks</strong>.</p>\n\n<p style=\"margin: 1em 0px; padding: 0px; border: 0px; outline: 0px; font-size: 13px; vertical-align: baseline; color: rgb(68, 68, 68); font-family: 'Lucida Grande', 'Lucida Sans', Tahoma, Helvetica, Arial, sans-serif; line-height: 18px; background: rgb(249, 252, 254);\">4) <strong>Conclusions </strong>- What did you learn from the project? &nbsp;What would you do differently if you were to do it again? &nbsp;What technologies did you find valuable and which were disappointments?</p>\n\n<p style=\"margin: 1em 0px; padding: 0px; border: 0px; outline: 0px; font-size: 13px; vertical-align: baseline; color: rgb(68, 68, 68); font-family: 'Lucida Grande', 'Lucida Sans', Tahoma, Helvetica, Arial, sans-serif; line-height: 18px; background: rgb(249, 252, 254);\">This project report should be at least 5 or 6 pages with screen shots to illustrate the functionality of your application.</p>\n\n<p style=\"margin: 1em 0px; padding: 0px; border: 0px; outline: 0px; font-size: 13px; vertical-align: baseline; color: rgb(68, 68, 68); font-family: 'Lucida Grande', 'Lucida Sans', Tahoma, Helvetica, Arial, sans-serif; line-height: 18px; background: rgb(249, 252, 254);\">Please submit a PDF document</p>\n",
+            "dueDate": 1460440740,
+            "graded": true,
+            "name": "Project Report",
+            "points": 100,
+            "type": "assignment",
+            "url": "sS4A",
+            "weight": 25
+          }
+        ]
+      }
+    ]
+  }
 }
