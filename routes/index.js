@@ -179,36 +179,27 @@ router.post('/GetAllInfo', function (req, res, next) {
 function getAllInfo(netID, password, sendDataCallback){
     console.log('Starting getAllInfo function')
     var auth = require('../byu-auth.js'),
-        apiKey = sharedSecret = authHeader = url = '',
+        apiKey = sharedSecret = authHeader = url = personId = expireDate = '',
         allUserInfo = {};
 
-    //Get API-Key and Shared Secret
+    //Get personID, API-Key, Shared Secret, and expireDate
     auth.getSessionKey(netID,password,480,function(wsSession){
         console.log('Starting getSessionKey function')
+        personId = wsSession.personId;
         apiKey = wsSession.apiKey;
         sharedSecret = wsSession.sharedSecret;
+        expireDate = wsSession.expireDate;
+        console.log('personId = ' + personId)
         console.log('apiKey = ' + apiKey)
         console.log('sharedSecret = ' + sharedSecret)
-        getPersonId();
+        console.log('expireDate = ' + expireDate)
+        allUserInfo.user = {};
+        allUserInfo.user.id = personId;
+        console.log(allUserInfo)
+        getCourses();
     });
 
     //Authenticate before each request
-
-    //Get person id
-    function getPersonId(){
-        console.log('Starting getPersonId function')
-        // https://ws.byu.edu/rest/v2.0/identity/person/directory/{netid}
-        url = 'https://ws.byu.edu/rest/v2.0/identity/person/directory/'+netID;
-        authHeader = auth.getAuthHeader(url,sharedSecret,apiKey);
-        auth.getRequest(authHeader, url, function(result){
-            console.log(result)
-            console.log(result.PersonLookupService.response)
-            allUserInfo.user = {};
-            allUserInfo.user.id = result.PersonLookupService.response.information[0].person_id;
-            console.log(allUserInfo)
-            getCourses();
-        });
-    }
 
     //Get courses for the user (course id, name, number, department)
     function getCourses(){
