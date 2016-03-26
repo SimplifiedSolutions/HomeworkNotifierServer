@@ -244,28 +244,27 @@ function getAllInfo(netID, password, sendDataCallback){
 
     //Recursive callback to simulate synchronous loop
     function loop(j){
-        var i = j;//Not sure why this is needed but it is
         console.log('Starting loop function')
-        console.log(i)
-        console.log(allUserInfo.user.courses[i].id)
+        console.log(j)//j is course number
+        console.log(allUserInfo.user.courses[j].id)
         // https://ws.byu.edu/rest/v1.0/learningsuite/assignments/assignment/courseID/wg0ueViT9uzw
-        url = 'https://ws.byu.edu/rest/v1.0/learningsuite/assignments/assignment/courseID/' + allUserInfo.user.courses[i].id;
+        url = 'https://ws.byu.edu/rest/v1.0/learningsuite/assignments/assignment/courseID/' + allUserInfo.user.courses[j].id;
         authHeader = auth.getAuthHeader(url, sharedSecret, apiKey);
         auth.getRequest(authHeader, url, function (result) {
-            var i = j;//Not sure why this is needed but it is
             console.log(result)
-            console.log(i)
-            console.log(allUserInfo.user.courses[0])
-            allUserInfo.user.courses[i].assignments = [];
+            console.log(j)
+            console.log(allUserInfo.user.courses[j])
+            allUserInfo.user.courses[j].assignments = [];
             for (var i = 0; i < result.length; ++i) {
+                //i is assignment number
                 var assignment = {}; var theirs = result[i];
                 assignment.id = theirs.id;
                 assignment.dueDate = theirs.dueDate;
-                allUserInfo.user.courses[i].assignments[i] = assignment;
+                allUserInfo.user.courses[j].assignments[i] = assignment;
             }
-            //This is the endpoint of the entire function that calls the sendDataCallback -- check to see if this is the last iteration
+            //This is the endpoint of the entire function that calls the sendDataCallback
             var numCourses = allUserInfo.user.courses.length;
-            if(i == numCourses - 1) {
+            if(j == numCourses - 1) {
                 console.log(allUserInfo)
                 console.log('Sending allUserInfo in callback')
                 sendDataCallback(allUserInfo);

@@ -83,15 +83,14 @@ function getRequest(authHeader, requestedUrl, callback)
 	        "Authorization": authHeader
 	    }
 	};
-	var request = protocol.request(get_options, function(res) {
-        var data='';
+    var request = protocol.request(get_options, function(res) {
+        var data = '';
 		res.setEncoding('utf8');
 		res.on('data', function (chunk) {
 		  //console.log('BODY: ' + chunk);
 			data += chunk;
 		});
-        res.on('end',function()
-        {
+        res.on('end', function(){
             callback(JSON.parse(data));
         });
 	});
@@ -106,7 +105,7 @@ function getRequestCallback(jsonObj)
     if(jsonObj != null) {
         //console.log(JSON.stringify(jsonObj));
         var fs = require('fs');
-        fs.writeFile('./responses/assignments.js', JSON.stringify(jsonObj), function (err) {
+        fs.writeFile('./responses/assignments.js', jsonObj, function (err) {
             if (err) return console.log(err);
             console.log('Hello World > helloworld.txt');
         });
