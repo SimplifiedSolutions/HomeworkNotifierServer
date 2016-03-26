@@ -89,12 +89,15 @@ function getRequest(authHeader, requestedUrl, callback)
 		res.on('data', function (chunk) {
 		  //console.log('BODY: ' + chunk);
 			data += chunk;
-			callback(JSON.parse(data));
 		});
 	});
 	request.on('error', function(e) {
 	    //console.log('problem with request: ' + e.message);
 	});
+    request.on("end", function(data)
+    {
+        callback(JSON.parse(data));
+    });
 	request.end();
 }
 
@@ -103,7 +106,7 @@ function getRequestCallback(jsonObj)
     if(jsonObj != null) {
         //console.log(JSON.stringify(jsonObj));
         var fs = require('fs');
-        fs.writeFile('./responses/assignments.js', jsonObj, function (err) {
+        fs.writeFile('./responses/assignments.js', JSON.stringify(jsonObj), function (err) {
             if (err) return console.log(err);
             console.log('Hello World > helloworld.txt');
         });
