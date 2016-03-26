@@ -1,10 +1,10 @@
-Example client.js usage
+Example byu-auth.js usage
 
 	(This method is asynchronous)
-	node client.js getSessionKey daviddt2 davidpaseo3 callback
+	node byu-auth.js getSessionKey daviddt2 davidpaseo3 callback
 
 	(This method is synchronous)
-	node client.js getAuthHeader "https://ws.byu.edu/rest/v1.0/learningsuite/coursebuilder/course/personEnrolled/093230722/period/20131" "Yo3-LLcvouf_sMsYC-LBXofSWpbYiwG2vloA4SH0" "OvOnDHZujNsSuUJDSTZT"
+	node byu-auth.js getAuthHeader "https://ws.byu.edu/rest/v1.0/learningsuite/coursebuilder/course/personEnrolled/093230722/period/20131" "Yo3-LLcvouf_sMsYC-LBXofSWpbYiwG2vloA4SH0" "OvOnDHZujNsSuUJDSTZT"
 
     //getSessionKey(netID,password,timeout,callback) ex: getSessionKey("daviddt2","password",480,doStuff)
     //getAuthHeader(url,sharedSecret,webServiceId)   ex: String header = getAuthHeader("ttps://ws.byu.edu/rest/v1.0/learningsuite/coursebuilder/course/personEnrolled/093230722/period/20131","Yo3-LLcvouf_sMsYC-LBXofSWpbYiwG2vloA4SH0",OvOnDHZujNsSuUJDSTZT)
