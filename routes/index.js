@@ -185,14 +185,11 @@ function getAllInfo(netID, password, sendDataCallback){
     //Get personID, API-Key, Shared Secret, and expireDate
     auth.getSessionKey(netID,password,480,function(wsSession){
         console.log('Starting getSessionKey function')
+        console.log(wsSession)
         personId = wsSession.personId;
         apiKey = wsSession.apiKey;
         sharedSecret = wsSession.sharedSecret;
         expireDate = wsSession.expireDate;
-        console.log('personId = ' + personId)
-        console.log('apiKey = ' + apiKey)
-        console.log('sharedSecret = ' + sharedSecret)
-        console.log('expireDate = ' + expireDate)
         allUserInfo.user = {};
         allUserInfo.user.id = personId;
         console.log(allUserInfo)
