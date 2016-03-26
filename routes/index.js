@@ -255,7 +255,7 @@ function getAllInfo(netID, password, sendDataCallback){
                 console.log('Sending allUserInfo in callback')
                 sendDataCallback(allUserInfo);
             } else {
-                loop(++i);
+                loop(++j);
             }
         });
     }
