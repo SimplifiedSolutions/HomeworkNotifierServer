@@ -105,9 +105,8 @@ function getRequestCallback(jsonObj)
     if(jsonObj != null) {
         //console.log(JSON.stringify(jsonObj));
         var fs = require('fs');
-        fs.writeFile('./responses/assignments.js', jsonObj, function (err) {
+        fs.writeFile('./responses/assignment.js', JSON.stringify(jsonObj), function (err) {
             if (err) return console.log(err);
-            console.log('Hello World > helloworld.txt');
         });
     }
     else
@@ -118,7 +117,7 @@ function getRequestCallback(jsonObj)
 
 function getStuff(wsSession)
 {
-	var paths = ['https://ws.byu.edu/rest/v1.0/learningsuite/assignments/assignment/courseID/5wyigGxZA8uJ'];
+	var paths = ['https://ws.byu.edu/rest/v1.0/learningsuite/assignments/assignment/6YYykuhR0w8V'];
 	for(var i in paths)
 	{
 		var authHeader = encrypt(paths[i],wsSession.sharedSecret,wsSession.apiKey);
