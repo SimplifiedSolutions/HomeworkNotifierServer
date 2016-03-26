@@ -166,13 +166,12 @@ router.post('/DeleteTask', function (req, res, next) {
     res.status(200).json(jsonresult);
 });
 
-router.get('/GetAllInfo', function (req, res, next) {
+router.post('/GetAllInfo', function (req, res, next) {
     console.log(req.body);
     var netID = req.body.netID;
     var password = req.body.password;
     getAllInfo(netID, password, function(jsonresult){
         console.log(jsonresult);
-        console.log(jsonresult.user.courses);
         res.status(200).json(jsonresult);
     });
 });
@@ -234,7 +233,6 @@ function getAllInfo(netID, password, sendDataCallback){
             getAssignments();
         });
     }
-
 
     //Get assignments for each course (assignment id, due date)
     function getAssignments() {
