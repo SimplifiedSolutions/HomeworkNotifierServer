@@ -167,32 +167,41 @@ router.post('/DeleteTask', function (req, res, next) {
 });
 
 router.post('/GetAllInfo', function (req, res, next) {
-    console.log(req.body);
+    console.log('In GetAllInfo route')
+    //console.log(req.body);
     var netID = req.body.netID;
     var password = req.body.password;
-    getAllInfo(netID, password, function(jsonresult){
-        console.log(jsonresult);
-        res.status(200).json(jsonresult);
+    var year_semester = req.body.year_semester;
+    getAllInfo(netID, password, year_semester, function(err, jsonresult){
+        console.log('err = ' + err)
+        console.log('jsonresult = ' + jsonresult)
+        if(err) {
+            console.log(err)
+            res.status(400).json(err);
+        } else {
+            console.log(jsonresult);
+            res.status(200).json(jsonresult);
+        }
     });
 });
 
-function getAllInfo(netID, password, sendDataCallback){
-    console.log('Starting getAllInfo function')
+function getAllInfo(netID, password, year_semester, sendDataCallback){
+    //console.log('Starting getAllInfo function')
     var auth = require('../byu-auth.js'),
         apiKey = sharedSecret = authHeader = url = personId = expireDate = '',
         allUserInfo = {};
 
     //Get personID, API-Key, Shared Secret, and expireDate
     auth.getSessionKey(netID,password,480,function(wsSession){
-        console.log('Starting getSessionKey function')
-        console.log(wsSession)
+        //console.log('Starting getSessionKey function')
+        //console.log(wsSession)
         personId = wsSession.personId;
         apiKey = wsSession.apiKey;
         sharedSecret = wsSession.sharedSecret;
         expireDate = wsSession.expireDate;
         allUserInfo.user = {};
         allUserInfo.user.id = personId;
-        console.log(allUserInfo)
+        //console.log(allUserInfo)
         getCourses();
     });
 
@@ -200,14 +209,35 @@ function getAllInfo(netID, password, sendDataCallback){
 
     //Get courses for the user (course id, name, number, department)
     function getCourses(){
-        console.log('Starting getCourses function')
+        //console.log('Starting getCourses function')
         // https://ws.byu.edu/rest/v1.0/learningsuite/coursebuilder/course/personEnrolled/{yourPersonID}/period/20131
-        //Period is currently hardcoded, we need to get the period from time in the year
-        var year_semester = '20161';
+        //If no year_semester is passed in get the year_semester from time in the year
+        if(year_semester == undefined || year_semester == ''){
+            console.log('expireDate = ' + expireDate)
+            console.log(new Date())
+            //Parse first part of expireDate to grab year, month, and day
+            var year = expireDate.substr(0,4);
+            var month = expireDate.substr(5,2);
+            var day = expireDate.substr(8,2);
+            var semester = 0;
+            if(month < 4 || month == 4 && day <= 22){
+                semester = 1;
+            } else if(month == 4 && day > 22 || month < 6 || month == 6 && day <= 19){
+                semester = 3;
+            } else if(month == 6 && day > 19 || month < 8 || month == 8 && day <= 17){
+                semester = 4;
+            } else {
+                semester = 5;
+            }
+            year_semester = year + semester;
+        }
         url = 'https://ws.byu.edu/rest/v1.0/learningsuite/coursebuilder/course/personEnrolled/'+allUserInfo.user.id+'/period/'+year_semester;
         authHeader = auth.getAuthHeader(url,sharedSecret,apiKey);
         auth.getRequest(authHeader, url, function(result){
             //console.log(result)
+            if(result.length == 0){
+                return sendDataCallback({error:'Error: User has no courses for this semester.'});
+            }
             allUserInfo.user.courses = [];
             for(var courseNum = 0; courseNum < result.length; ++courseNum){
                 var course = {}; var theirCourse = result[courseNum];
@@ -216,24 +246,24 @@ function getAllInfo(netID, password, sendDataCallback){
                 course.shortTitle = theirCourse.shortTitle;
                 allUserInfo.user.courses[courseNum] = course;
             }
-            console.log(allUserInfo)
-            console.log(allUserInfo.user.courses)
+            //console.log(allUserInfo)
+            //console.log(allUserInfo.user.courses)
             loop(0);
         });
     }
 
     //Recursive callback to simulate synchronous loop
     function loop(courseNum){
-        console.log('Starting loop function')
-        console.log(courseNum)
-        console.log(allUserInfo.user.courses[courseNum].id)
+        //console.log('Starting loop function')
+        //console.log(courseNum)
+        //console.log(allUserInfo.user.courses[courseNum].id)
         getCategories(courseNum, function(){
             //This is the endpoint of the entire function that calls the sendDataCallback
             var numCourses = allUserInfo.user.courses.length;
             if(courseNum == numCourses - 1) {
-                console.log(allUserInfo)
+                //console.log(allUserInfo)
                 console.log('Sending allUserInfo in callback')
-                sendDataCallback(allUserInfo);
+                sendDataCallback(undefined,allUserInfo);
             } else {
                 loop(++courseNum);
             }
@@ -242,26 +272,26 @@ function getAllInfo(netID, password, sendDataCallback){
 
     //Get category name that matches category id
     function getCategories(courseNum, callback){
-        console.log('Starting getCategories function')
+        //console.log('Starting getCategories function')
         //https://ws.byu.edu/rest/v1.0/learningsuite/assignments/category/courseID/wg0ueViT9uzw
         url = 'https://ws.byu.edu/rest/v1.0/learningsuite/assignments/category/courseID/' + allUserInfo.user.courses[courseNum].id;
         authHeader = auth.getAuthHeader(url, sharedSecret, apiKey);
         auth.getRequest(authHeader, url, function(result){
-            console.log(result)
+            //console.log(result)
             getAssignments(courseNum, result, callback);
         });
     }
 
     //Get assignments for each course (assignment id, due date)
     function getAssignments(courseNum, categories, callback) {
-        console.log('Starting getAssignments function')
+        //console.log('Starting getAssignments function')
         // https://ws.byu.edu/rest/v1.0/learningsuite/assignments/assignment/courseID/wg0ueViT9uzw
         url = 'https://ws.byu.edu/rest/v1.0/learningsuite/assignments/assignment/courseID/' + allUserInfo.user.courses[courseNum].id;
         authHeader = auth.getAuthHeader(url, sharedSecret, apiKey);
         auth.getRequest(authHeader, url, function (result) {
             //console.log(result)
-            console.log(courseNum)
-            console.log(allUserInfo.user.courses[courseNum])
+            //console.log(courseNum)
+            //console.log(allUserInfo.user.courses[courseNum])
             allUserInfo.user.courses[courseNum].assignments = [];
             for (var assignNum = 0; assignNum < result.length; ++assignNum) {
                 var assignment = {}; var theirs = result[assignNum];
@@ -269,7 +299,7 @@ function getAllInfo(netID, password, sendDataCallback){
                 assignment.categoryID = theirs.categoryID;
                 for (var categoryNum = 0; categoryNum < categories.length; ++categoryNum) {
                     if(assignment.categoryID == categories[categoryNum].id){
-                        console.log(categories[categoryNum].title)
+                        //console.log(categories[categoryNum].title)
                         assignment.category = categories[categoryNum].title;
                         break
                     }
