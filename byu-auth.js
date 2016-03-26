@@ -90,14 +90,14 @@ function getRequest(authHeader, requestedUrl, callback)
 		  //console.log('BODY: ' + chunk);
 			data += chunk;
 		});
+        res.on('end',function()
+        {
+            callback(JSON.parse(data));
+        });
 	});
 	request.on('error', function(e) {
 	    //console.log('problem with request: ' + e.message);
 	});
-    request.on("end", function(data)
-    {
-        callback(JSON.parse(data));
-    });
 	request.end();
 }
 
