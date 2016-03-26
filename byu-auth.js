@@ -84,7 +84,7 @@ function getRequest(authHeader, requestedUrl, callback)
 	    }
 	};
 	var request = protocol.request(get_options, function(res) {
-        var data;
+        var data='';
 		res.setEncoding('utf8');
 		res.on('data', function (chunk) {
 		  //console.log('BODY: ' + chunk);
