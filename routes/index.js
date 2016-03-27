@@ -236,7 +236,7 @@ function getAllInfo(netID, password, year_semester, sendDataCallback){
         auth.getRequest(authHeader, url, function(result){
             //console.log(result)
             if(result.length == 0){
-                return sendDataCallback({error:'Error: User has no courses for this semester.'});
+                return sendDataCallback({error:'User has no courses for this semester.'});
             }
             allUserInfo.user.courses = [];
             for(var courseNum = 0; courseNum < result.length; ++courseNum){
