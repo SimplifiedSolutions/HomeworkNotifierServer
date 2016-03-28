@@ -19,6 +19,7 @@ function getSessionKey(netID,password,timeout,callback)
 	        'Content-Length': Buffer.byteLength(data)
 	    }
 	};
+    //TODO Need to modify this for the case of invalid netID or password?
 	var req = http.request(options, function(res) {
 	    res.setEncoding('utf8');
 	    res.on('data', function (chunk) {

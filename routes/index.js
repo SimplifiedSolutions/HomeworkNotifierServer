@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    res.sendFile('basic.html', {root: 'public'});
+    res.sendFile('login.html', {root: 'public'});
 });
 
 /*************HANDLERS**********/
@@ -169,6 +169,16 @@ router.post('/DeleteTask', function (req, res, next) {
 router.post('/GetAllInfo', function (req, res, next) {
     console.log('In GetAllInfo route')
     //console.log(req.body);
+    //Check parameters
+    if(req.body.netID == undefined || req.body.netID == ''){
+        var err = {error:'netID is required'}
+        console.log(err);
+        res.status(400).json(err);
+    } else if(req.body.password == undefined || req.body.password == ''){
+        var err = {error:'password is required'}
+        console.log(err);
+        res.status(400).json(err);
+    }
     var netID = req.body.netID;
     var password = req.body.password;
     var year_semester = req.body.year_semester;
@@ -186,15 +196,15 @@ router.post('/GetAllInfo', function (req, res, next) {
 });
 
 function getAllInfo(netID, password, year_semester, sendDataCallback){
-    //console.log('Starting getAllInfo function')
+    console.log('Starting getAllInfo function')
     var auth = require('../byu-auth.js'),
         apiKey = sharedSecret = authHeader = url = personId = expireDate = '',
         allUserInfo = {};
 
-    //Get personID, API-Key, Shared Secret, and expireDate
-    auth.getSessionKey(netID,password,480,function(wsSession){
-        //console.log('Starting getSessionKey function')
-        //console.log(wsSession)
+    //Get personID, API-Key, Shared Secret, and expireDate; unsure what the timeout should be
+    auth.getSessionKey(netID,password,1,function(wsSession){
+        console.log('Starting getSessionKey callback function')
+        console.log(wsSession)
         personId = wsSession.personId;
         apiKey = wsSession.apiKey;
         sharedSecret = wsSession.sharedSecret;
@@ -235,6 +245,7 @@ function getAllInfo(netID, password, year_semester, sendDataCallback){
         authHeader = auth.getAuthHeader(url,sharedSecret,apiKey);
         auth.getRequest(authHeader, url, function(result){
             //console.log(result)
+            //If there are no courses returned send error
             if(result.length == 0){
                 return sendDataCallback({error:'User has no courses for this semester.'});
             }
