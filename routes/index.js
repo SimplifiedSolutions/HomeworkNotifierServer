@@ -316,7 +316,8 @@ function getAllInfo(netID, password, year_semester, sendDataCallback){
                     }
                 }
                 assignment.courseID = theirs.courseID;
-                assignment.description = theirs.description;
+
+                assignment.description = removeHtml(theirs.description);
                 assignment.dueDate = theirs.dueDate;
                 assignment.graded = theirs.graded;
                 assignment.name = theirs.name;
@@ -329,6 +330,31 @@ function getAllInfo(netID, password, year_semester, sendDataCallback){
             }
             callback();
         });
+        function removeHtml(html)
+        {
+            var result = "";
+            var htmlparser = require("htmlparser2");
+            var parser = new htmlparser.Parser({
+                onopentag: function(name, attribs){
+                    switch(name)
+                    {
+                        case "a":
+                            result += attribs.href+'\n';
+                            break;
+                        case "p":
+                            result += "";
+                    }
+                },
+                ontext: function(text){
+                    result += text.replace("&nbsp;"," ");
+                },
+                onclosetag: function(tagname){
+                }
+            }, {decodeEntities: true});
+            parser.write(html);
+            parser.end();
+            return result;
+        }
     }
 }
 
