@@ -318,7 +318,7 @@ function getAllInfo(netID, password, year_semester, sendDataCallback){
                 assignment.courseID = theirs.courseID;
 
                 assignment.description = removeHtml(theirs.description);
-                assignment.dueDate = theirs.dueDate;
+                assignment.dueDate = theirs.dueDate*1000;
                 assignment.graded = theirs.graded;
                 assignment.name = theirs.name;
                 assignment.points = theirs.points;
