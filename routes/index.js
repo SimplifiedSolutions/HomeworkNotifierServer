@@ -203,16 +203,22 @@ function getAllInfo(netID, password, year_semester, sendDataCallback){
 
     //Get personID, API-Key, Shared Secret, and expireDate; unsure what the timeout should be
     auth.getSessionKey(netID,password,1,function(wsSession){
-        console.log('Starting getSessionKey callback function')
-        console.log(wsSession)
-        personId = wsSession.personId;
-        apiKey = wsSession.apiKey;
-        sharedSecret = wsSession.sharedSecret;
-        expireDate = wsSession.expireDate;
-        allUserInfo.user = {};
-        allUserInfo.user.id = personId;
-        //console.log(allUserInfo)
-        getCourses();
+        if(wsSession != "error") {
+            console.log('Starting getSessionKey callback function')
+            console.log(wsSession)
+            personId = wsSession.personId;
+            apiKey = wsSession.apiKey;
+            sharedSecret = wsSession.sharedSecret;
+            expireDate = wsSession.expireDate;
+            allUserInfo.user = {};
+            allUserInfo.user.id = personId;
+            //console.log(allUserInfo)
+            getCourses();
+        }
+        else
+        {
+            sendDataCallback({error: 'Invalid Credentials'});
+        }
     });
 
     //Authenticate before each request

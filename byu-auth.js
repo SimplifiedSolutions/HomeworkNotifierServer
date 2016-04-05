@@ -29,7 +29,14 @@ function getSessionKey(netID,password,timeout,callback)
 	        console.log("apikey: "+ wsSession.apiKey);
 	        callback(wsSession);
 	    });
+        res.on('error', function (err) {
+            callback(err);
+        });
 	});
+    req.setTimeout(1000, function() {
+        console.log('server', 'request timeout');
+        callback("error");
+    });
 
 	req.write(data);
 	req.end();
@@ -167,7 +174,7 @@ switch (process.argv[2]) {
 
         break;
     case "test":
-        getSessionKey('daviddt2','davidpaseo3',480,getStuff);
+        getSessionKey('netid','password',480,getStuff);
         //test(process.argv[3]);
         break;
     default:
