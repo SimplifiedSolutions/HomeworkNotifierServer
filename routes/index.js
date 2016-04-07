@@ -174,10 +174,12 @@ router.post('/GetAllInfo', function (req, res, next) {
         var err = {error:'netID is required'}
         console.log(err);
         res.status(400).json(err);
+        return
     } else if(req.body.password == undefined || req.body.password == ''){
         var err = {error:'password is required'}
         console.log(err);
         res.status(400).json(err);
+        return
     }
     var netID = req.body.netID;
     var password = req.body.password;
